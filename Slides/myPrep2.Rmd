@@ -1,0 +1,55 @@
+---
+title: "myPrep2"
+author: "MGA"
+date: "31 jul 2018"
+output: ioslides_presentation
+---
+
+
+## Janzy figs
+For instans look at this very nice plot
+```{r}
+
+with(mtcars, plot(mpg ~ disp))
+```
+
+##Changing the plot a little
+lets make some regression lines to add to the figure
+```{r, warning=FALSE, message=FALSE, fig.height=3, fig.width=5}
+library(dplyr)
+##some functions
+to_power_of <- function(x, power) x^power
+squared <- function(x) to_power_of(x, 2)
+mtcars <- mtcars %>% mutate_all(funs(log, squared))
+fit1 <- lm(mpg ~ disp, data = mtcars)
+fit2 <- lm(mpg ~ disp + disp_squared, data = mtcars)
+fit3 <- lm(mpg ~ disp + disp_log, data = mtcars)
+```
+
+##The figure with the regression lines
+```{r, echo = F}
+with(mtcars, plot(mpg ~ disp))
+nd <- data.frame(disp = 50:500, disp_squared = (50:500)^2, disp_log = log(50:500))
+abline(fit1)
+lines(x = 50:500, y = predict(fit2, newdata = nd), type  = "l", col = "steelblue")
+lines(x = 50:500, y = predict(fit3, newdata = nd), type  = "l", col = "red")
+legend(350,30,legend = c("linear fit", "squared fit", "log fit"), 
+       col = c("black", "steelblue", "red"), lty = 1)
+```
+
+```{r}
+alm_prak <- read_csv2("F:/EfUA/MGAH/RBT_tilsynsrapporter/Tilsynsrapporter_med_identifier/Almen_praksis.csv") %>%
+  filter(!is.na(A_Longitude) & !is.na(A_Latitude))
+names(alm_prak)[1] <- "Navn"
+
+icon.red <- makeAwesomeIcon(icon= 'flag', markerColor = 'red', iconColor = 'black')
+icon.orange <- makeAwesomeIcon(icon= 'flag', markerColor = 'orange', iconColor = 'black')
+icon.green <- makeAwesomeIcon(icon= 'flag', markerColor = 'green', iconColor = 'black')
+
+my_map <- leaflet() %>% 
+  addTiles() %>% 
+  addAwesomeMarkers(lat = alm_prak$A_Latitude, 
+             lng = alm_prak$A_Longitude, label = alm_prak$Navn, 
+             icon = ifelse(alm_prak$vurdering + alm_prak$bemaerk == 0, icon.green, 
+                           ifelse(alm_prak$vurdering + alm_prak$bemaerk %in% c(1,2), icon.orange, icon.red)))
+```
