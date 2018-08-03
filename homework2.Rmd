@@ -1,0 +1,90 @@
+---
+title: "Week 3: plotly homework assignment"
+author: "Magnus Ahlström"
+date: "3 aug 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=F}
+knitr::opts_chunk$set(message = F, warning = F, cache=F)
+```
+
+##Best prediction of miles pr gallon based on the mtcars dataset
+
+- In the following slides I will try to evaluate what kind relationship that best fits the association between weight and miles pr. gallon in the mtcars dataset.
+
+- I will fit three univariate linear regression models with the miles pr. gallon as the response and the weight, weight squared and log weight as the predictors
+
+- I will then try to evaluate which one gives the best prediction based on a grphical evaluation and based on the
+
+##Code to produce the modify the data and fit the models
+```{r}
+##A function to calculate the mean squared error
+mse <- function(fit) mean((summary(fit)$residuals)^2)
+
+##Lodaing packages and modifying the mtcars dataset
+library(plotly); library(dplyr); library(tidyr)
+mtcars_mod <- mtcars %>%
+    mutate(log_wt = log(wt),
+           squared_wt = wt^2)
+
+#Fitting the models as described above
+fit_lin <- lm(mpg ~ wt, data = mtcars_mod)
+fit_sq <- lm(mpg ~ squared_wt, data = mtcars_mod)
+fit_log <- lm(mpg ~ log_wt, data = mtcars_mod)
+```
+
+##A little formatting to the plot
+```{r}
+f <- list(
+  family = "Courier New, monospace",
+  size = 18,
+  color = "#7f7f7f"
+)
+x <- list(
+  title = "Weight (ton)",
+  titlefont = f
+)
+y <- list(
+  title = "Miles pr gallon (km)",
+  titlefont = f
+)
+```
+##Code for the plot (Plot is not next slide)
+```{r, eval = F}
+plot_ly(data = mtcars_mod, x = ~wt, y = ~mpg, 
+        type = "scatter", 
+        mode = "markers", 
+        name = "Observed") %>%
+    add_lines(x = ~wt, y = predict(fit_lin), 
+              name = "Linear prediction") %>%
+    add_lines(x = ~wt, y = predict(fit_sq), 
+              name = "Squared prediction") %>%
+    add_lines(x = ~wt, y = predict(fit_log), 
+              name = "Logarithmic prediction") %>%
+    layout(xaxis = x,
+           yaxis = y)
+```
+
+##The plot
+```{r, echo = F}
+plot_ly(data = mtcars_mod, x = ~wt, y = ~mpg, 
+        type = "scatter", 
+        mode = "markers", 
+        name = "Observed",
+        xaxis = x,
+        yaxis = y) %>%
+    add_lines(x = ~wt, y = predict(fit_lin), 
+              name = "Linear prediction") %>%
+    add_lines(x = ~wt, y = predict(fit_sq), 
+              name = "Squared prediction") %>%
+    add_lines(x = ~wt, y = predict(fit_log), 
+              name = "Logarithmic prediction") %>%
+    layout(xaxis = x,
+           yaxis = y)
+```
+
+##Best prediction
+From the graph it looks like the best prediction of miles pr. gallon comes from taking the log of weight and making a fit based on that. This is also indicated by the mean squared error which is, `r round(mse(fit_lin), 2)` for the linear prediction, `r round(mse(fit_sq), 2)` for the squared prediction and `r round(mse(fit_log), 2)` for the logarithmic prediction.
+
+##Thanks
