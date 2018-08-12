@@ -2,7 +2,8 @@ library(dplyr)
 load("C:/Users/mras0142/Documents/GitHub/DDP_Data/Parsed_medline_records.Rdata")
 
 affiliations <- lapply(parsed, function(x) {
-    fa_aff <- if (!is.null(x$AD)) strsplit(x$AD, ";")[[1]][1] else NA
+    fa_aff <- if (!is.null(x$AD)) strsplit(x$AD, ";")[[1]][1] else "NA"
+    fa_aff <- gsub("\\-", "\\ ", fa_aff)
     Dates <- if (!is.null(x$PHST)) x$PHST else "NA"
     ri <- grepl("recieved", strsplit(Dates, ";")[[1]])
     ai <- grepl("accepted", strsplit(Dates, ";")[[1]])
@@ -14,22 +15,33 @@ affiliations <- lapply(parsed, function(x) {
     Created <- if (!is.null(x$DA)) x$DA else "NA"
     CTDT <- if (!is.null(x$CTDT)) x$CTDT else "NA"
     Last_revised <- if (!is.null(x$LR)) x$LR else "NA"
+    DEP <- if (!is.null(x$DEP)) x$DEP else "NA"
+    LR <- if(!is.null(x$LR)) x$LR else "NA"
     index_uni <- regexpr("\\,[[:alpha:][:space:]]*[Uu][Nn][Ii][[:alpha:][:space:]]*\\,", fa_aff)
+    index_uni <- if (index_uni == -1 | identical(index_uni, integer(0))) regexpr("^[[:alpha:][:space:]]*?[Uu][Nn][Ii][[:alpha:][:space:]]*\\,", fa_aff) else index_uni
+    index_uni <- if (index_uni == -1 | identical(index_uni, integer(0))) regexpr("\\,[[:alpha:][:space:]]*[Uu][Nn][Ii][[:alpha:][:space:]]*[[:punct:]]?$", fa_aff) else index_uni
     uni <- sub("^\\,\\ ", "", substr(fa_aff, index_uni, index_uni[1] + attributes(index_uni)[[1]]))
     uni_cleansed <- trimws(sub("\\,\\ $", "", sub("^\\,\\ *", "", uni)))
     list(University = uni_cleansed, PMID = x$PMID, 
          Date_received = Date_received, Date_accepted = Date_accepted, 
-         Created = Created, Published = Published, CTDT = CTDT)
+         Created = Created, Published = Published, CTDT = CTDT, DEP = DEP,
+         LR = LR)
 })
 
 affiliations2 <- do.call(rbind.data.frame, c(affiliations, stringsAsFactors = F)) %>%
     mutate(Published = sub("\\/", "-", Published),
            Published = sub("\\ -\\ ", "-", Published),
-        Published = ifelse(nchar(Published) == 4, NA, Published),
-        Published = sub("[[:alpha:]]{3}-", "", Published)),
-        Published = as.Date(Published, format = "%Y %b %d"),
+           Published = ifelse(nchar(Published) == 4, NA, Published),
+           Published = sub("[[:alpha:]]{3}-", "", Published),
+           Published = as.Date(Published, format = "%Y %b %d"),
            CTDT = as.Date(CTDT, format = "%Y%m%d"),
+           DEP = as.Date(DEP, format = "%Y%m%d"),
+           LR = as.Date(LR, format = "%Y%m%d"),
+           Created = as.Date(Created, format = "%Y%m%d"),
            Published = ifelse(is.na(Published), CTDT, Published),
+           Published = ifelse(is.na(Published), DEP, Published),
+           Published = ifelse(is.na(Published), LR, Published),
+           Published = ifelse(is.na(Published), Created, Published),
            Published = as.Date(Published, origin = "1970-01-01"))
     #mutate(University = as.character(University)) %>%
     filter(University != "" & !is.na(University))
