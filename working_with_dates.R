@@ -1,9 +1,66 @@
-library(dplyr)
-load("C:/Users/mras0142/Documents/GitHub/DDP_Data/Parsed_medline_records.Rdata")
+library(dplyr); library(ggmap)
+##########################################################################
+# Michael L. Bernauer
+# mlbernauer@gmail.com
+# 12/14/2014
+# Module for parsing PubMed Medline files.
+# Files should be downloaded to your
+# computer and loaded into R by passing the
+# file path into the medline function.
+# The function returns a list containing
+# each Medline entry.
+#
+# USAGE:
+# source('medline.R')
+# medline_records <- medline("/home/user/Downloads/pubmed_results.txt")
+##########################################################################
+medline = function(file_name){
+  lines <- readLines(file_name)
+  medline_records <- list()
+  key <- 0
+  record <- 0
+  for(line in lines){
+    header <- sub(" {1,20}", "", substring(line, 1, 4))
+    value <- sub("^.{6}", "", line)
+    if(header == "" & value == ""){
+      next
+    }
+    else if(header == "PMID"){
+      record = record + 1
+      medline_records[[record]] <- list()
+      medline_records[[record]][header] <- value
+    }
+    else if(header == "" & value != ""){
+      medline_records[[record]][key] <- paste(medline_records[[record]][key], value)
+    }
+    else{
+      key <- header
+      if(is.null(medline_records[[record]][key][[1]])){
+        medline_records[[record]][key] <- value
+      }
+      else { 
+        medline_records[[record]][key] <- paste(medline_records[[record]][key], value, sep=";")
+      }
+    }
+  }
+  return(medline_records)
+}
 
-affiliations <- lapply(parsed, function(x) {
+load("C:/Kurser/Data_medline/parsed_2018_1.Rdata")
+load("C:/Kurser/Data_medline/parsed_2018_2.Rdata")
+load("C:/Kurser/Data_medline/parsed_2018_3.Rdata")
+load("C:/Kurser/Data_medline/parsed_2018_4.Rdata")
+load("C:/Kurser/Data_medline/parsed_2018_5.Rdata")
+load("C:/Kurser/Data_medline/parsed_2018_6.Rdata")
+load("C:/Kurser/Data_medline/parsed_2018_7.Rdata")
+
+
+
+affiliations <- lapply(parsed_2018_7, function(x) {
     fa_aff <- if (!is.null(x$AD)) strsplit(x$AD, ";")[[1]][1] else "NA"
     fa_aff <- gsub("\\-", "\\ ", fa_aff)
+    fa_aff <- gsub("&", "and", fa_aff)
+    fa_aff <- gsub("(?!,)[[:punct:]]", " ", fa_aff, perl=TRUE)
     Dates <- if (!is.null(x$PHST)) x$PHST else "NA"
     ri <- grepl("recieved", strsplit(Dates, ";")[[1]])
     ai <- grepl("accepted", strsplit(Dates, ";")[[1]])
@@ -17,9 +74,10 @@ affiliations <- lapply(parsed, function(x) {
     Last_revised <- if (!is.null(x$LR)) x$LR else "NA"
     DEP <- if (!is.null(x$DEP)) x$DEP else "NA"
     LR <- if(!is.null(x$LR)) x$LR else "NA"
-    index_uni <- regexpr("\\,[[:alpha:][:space:]]*[Uu][Nn][Ii][[:alpha:][:space:]]*\\,", fa_aff)
-    index_uni <- if (index_uni == -1 | identical(index_uni, integer(0))) regexpr("^[[:alpha:][:space:]]*?[Uu][Nn][Ii][[:alpha:][:space:]]*\\,", fa_aff) else index_uni
-    index_uni <- if (index_uni == -1 | identical(index_uni, integer(0))) regexpr("\\,[[:alpha:][:space:]]*[Uu][Nn][Ii][[:alpha:][:space:]]*[[:punct:]]?$", fa_aff) else index_uni
+    index_uni <- regexpr("\\,[[:alpha:][:space:]]*[Uu][Nn][Ii][Vv][[:alpha:][:space:]]*\\,", fa_aff)
+    index_uni <- if (index_uni == -1 | identical(index_uni, integer(0))) regexpr("^[[:alpha:][:space:]]*?[Uu][Nn][Ii][Vv][[:alpha:][:space:]]*\\,", fa_aff) else index_uni
+    index_uni <- if (index_uni == -1 | identical(index_uni, integer(0))) regexpr("\\,[[:alpha:][:space:]]*[Uu][Nn][Ii][Vv][[:alpha:][:space:]]*[[:punct:]]?$", fa_aff) else index_uni
+    index_uni <- if (index_uni == -1 | identical(index_uni, integer(0))) regexpr("^[[:alpha:][:space:]]*?[Uu][Nn][Ii][Vv][[:alpha:][:space:]]*[[:punct:]]?$", fa_aff) else index_uni
     uni <- sub("^\\,\\ ", "", substr(fa_aff, index_uni, index_uni[1] + attributes(index_uni)[[1]]))
     uni_cleansed <- trimws(sub("\\,\\ $", "", sub("^\\,\\ *", "", uni)))
     list(University = uni_cleansed, PMID = x$PMID, 
@@ -29,89 +87,86 @@ affiliations <- lapply(parsed, function(x) {
 })
 
 affiliations2 <- do.call(rbind.data.frame, c(affiliations, stringsAsFactors = F)) %>%
-    mutate(Published = sub("\\/", "-", Published),
-           Published = sub("\\ -\\ ", "-", Published),
-           Published = ifelse(nchar(Published) == 4, NA, Published),
-           Published = sub("[[:alpha:]]{3}-", "", Published),
-           Published = as.Date(Published, format = "%Y %b %d"),
-           CTDT = as.Date(CTDT, format = "%Y%m%d"),
-           DEP = as.Date(DEP, format = "%Y%m%d"),
-           LR = as.Date(LR, format = "%Y%m%d"),
-           Created = as.Date(Created, format = "%Y%m%d"),
-           Published = ifelse(is.na(Published), CTDT, Published),
-           Published = ifelse(is.na(Published), DEP, Published),
-           Published = ifelse(is.na(Published), LR, Published),
-           Published = ifelse(is.na(Published), Created, Published),
-           Published = as.Date(Published, origin = "1970-01-01"))
-    #mutate(University = as.character(University)) %>%
-    filter(University != "" & !is.na(University))
-unis <- affiliations2$University
-unique_uni_names_2500 <- names(table(unis))[order(table(unis), decreasing = T)][1:2500]
-#unique_uni_names <- names(table(affiliations2$University))[order(table(affiliations2$University), decreasing = T)]
-#lon_lat_uni_google <- geocode(unique_uni_names_2500, source = "google")
+  mutate(Published = sub("\\/", "-", Published),
+         Published = sub("\\ -\\ ", "-", Published),
+         Published = ifelse(nchar(Published) == 4, NA, Published),
+         Published = sub("[[:alpha:]]{3}-", "", Published),
+         Published = as.Date(Published, format = "%Y %b %d"),
+         CTDT = as.Date(CTDT, format = "%Y%m%d"),
+         DEP = as.Date(DEP, format = "%Y%m%d"),
+         LR = as.Date(LR, format = "%Y%m%d"),
+         Created = as.Date(Created, format = "%Y%m%d"),
+         Published = ifelse(is.na(Published), CTDT, Published),
+         Published = ifelse(is.na(Published), DEP, Published),
+         Published = ifelse(is.na(Published), LR, Published),
+         Published = ifelse(is.na(Published), Created, Published),
+         Published = as.Date(Published, origin = "1970-01-01"),
+         University = gsub("\\ {1,}", " ", University),
+         University = sub("\\,[[:alpha:]]*?$", "", University),
+         University = sub("^[[:alpha:]]\\ ", "", University),
+         University = sub("Univeristy", "University", University),
+         University = sub("^[Aa]ffiliated Hospital of ", "", University),
+         University = sub("^[Aa]ffiliated to ", "", University),
+         University = sub("^[Aa]ffiliated with ", "", University),
+         University = sub("\\ [[:upper:]]*$", "", University)) %>%
+  #mutate(University = as.character(University)) %>%
+  filter(University != "") %>%
+  select(University, PMID, Published)
 
-#lon_lat_uni_dsk <- geocode(unique_uni_names_2500, source = "dsk")
-#save(lon_lat_uni_dsk, file = "C:/Users/mras0142/Documents/GitHub/Developing_Data_Products/homework1/lon_lat.Rdata")
-#save(lon_lat2, file = "C:/Users/mras0142/Documents/GitHub/Data_DDP/lon_lat2.Rdata")
-load("C:/Users/mras0142/Documents/GitHub/DDP_Data/lon_lat.Rdata")
+#load("C:/Kurser/Developing_Data_Products/homework1/lon_lat.Rdata")
+#affiliations_lon_lat2 <- left_join(affiliations2, lon_lat2, by = "University")
 
-uni_coord_merged <- cbind.data.frame(unique_uni_names_2500, lon_lat_uni_dsk) %>%
-    filter(!is.na(lon)) %>%
-    filter(lon != -101.8921 & lat != 33.58928) %>%
-    mutate(University = unique_uni_names_2500) %>%
-    select(-unique_uni_names_2500)
+#missing_lon_lat <- filter(affiliations_lon_lat2, is.na(lon))
 
-articles_by_uni <- left_join(affiliations2, uni_coord_merged, by = "University") %>%
-    filter(!is.na(lon)) %>%
-    mutate(Date = as.Date(substr(Date_accepted, 1, 10), format = "%Y/%m/%d")) %>%
-    arrange(University, desc(Date_accepted))
+#unis <- unique(missing_lon_lat$University)
+#ordered <- unis[order(unis)]
 
 
-summarised <- articles_by_uni %>%
-    group_by(University, lon, lat) %>% 
-    summarise(n = n()) %>%
-    mutate(group = cut(n, breaks = c(0,10,25,100,200,Inf), 
-                       labels = c("green", "light_green", "yellow", "orange", "red"))) %>%
-    arrange(desc(n))
+#lon_lat_dsk2500 <- geocode(ordered[1:2500], source = "dsk")
+#lon_lat_dsk5000 <- geocode(ordered[2501:5000], source = "dsk")
+#lon_lat_dsk7500 <- geocode(ordered[5001:7500], source = "dsk")
+#lon_lat_dsk10000 <- geocode(ordered[7501:10000], source = "dsk")
+#lon_lat_dsk12500 <- geocode(ordered[10001:12500], source = "dsk")
+#lon_lat_dsk12568 <- geocode(ordered[12501:12568], source = "dsk")
 
+#lon_lat3 <- cbind(ordered, do.call(rbind, mget(ls()[grepl("lon_lat_dsk", ls())][c(4,5,6,1,2,3)]))) %>%
+#  rename(University = ordered)
+#save(lon_lat3, file = "C:/Kurser/Data_medline/lon_lat3.Rdata")
+#load("C:/Kurser/Data_medline/lon_lat3.Rdata")
+#coords <- filter(lon_lat3, !is.na(lon))
+#no_coords <- filter(lon_lat3, is.na(lon))
 
-#affiliations2 <- tbl_df(left_join(affiliations2, affiliations3, by = "University")) %>% arrange(University)
-#lon_lat <- geocode(affiliations3$University)
-#affiliations2 <- affiliations[!(affiliations == "" | is.na(affiliations))]
-#topUnis <- names(table(affiliations2))[order(table(affiliations2), decreasing = T)]
-#lon_lat <- geocode(topUnis[1:1000], source = "google")
-#lon_lat2 <- data.frame(University = topUnis[1:1000], lon = lon_lat[,1], lat = lon_lat[,2])
-#lon_lat2 <- lon_lat2[complete.cases(lon_lat2),] #%>%
-#group_by(lon, lat) %>%
-#summarize(University = University[1], n = n())
-#dupl_lon_lon
-#lapply(dupl_lon_lon, function(x)
-#    filter(lon_lat2, lon == lon_lat2$lon[x] & lat == lon_lat2$lat[x])
-#)
-#save(lon_lat2, file = "C:/Users/mras0142/Documents/GitHub/DDP_Data/lon_lat.Rdata")
-#load("C:/Users/mras0142/Documents/GitHub/DDP_Data/lon_lat.Rdata")
+#ud_med <- data.frame(lon = c(-101.8921, 2.16667, 11.97200, 12.00000, 14.48333, 16.49035, 33.50640, 103.78306), 
+#                     lat = c(33.58928, 7.25000, 51.48300, 4.75000, 12.16667, 47.32442, 39.84530, 1.29528))
 
-articles_to_display <- left_join(select(articles_by_uni, University, PMID, Date), summarised, by = "University") %>%
-    filter(!is.na(lon)) %>%
-    group_by(University) %>%
-    slice(1:5)
+#lon_lat <- bind_rows(lon_lat2, coords) %>%
+#  select(-n) %>%
+#  mutate(uni_Ls = nchar(University)) %>%
+#  arrange(lon, lat, uni_Ls) %>%
+#  group_by(lon, lat) %>%
+#  mutate(n_to_all = 1:n()) %>%
+#  filter(!(lon %in% ud_med$lon & lat %in% ud_med$lat))
 
-art_display_string <- lapply(unique(articles_to_display$University), function(x) {
-    pubs <- filter(articles_to_display, University == x) %>% pull(PMID)
-    as_a_link <- lapply(pubs, function(t) paste("<a href='https://www.ncbi.nlm.nih.gov/pubmed/", t, "'>", t, "</a>", sep = ""))
-    data.frame(University = x, link = do.call(paste, c(as_a_link, sep = " <br> ")))
-})
+#search_name <- group_by(lon_lat, lon, lat) %>%
+#  slice(1) %>%
+#  mutate(University = sub("[Uu]niv\\ ", "University\\ ", University),
+#         University = sub("^[Tt]he\\ ?", "", University),
+#         University = sub("^[Aa]nd\\ ?", "", University)) %>%
+#  arrange(University) %>%
+#  rename(Search = University)
+  
 
-art_display_string_df <- do.call(rbind.data.frame, art_display_string)
-final_for_display <- left_join(summarised, art_display_string_df, by = "University")
-quakeIcons <- iconList(green = makeIcon("C:/Users/mras0142/Documents/GitHub/Developing_Data_Products/Map_markers/map-marker-green.png", iconWidth = 32, iconHeight =32, iconAnchorX = 16, iconAnchorY = 32),
-                       light_green = makeIcon("C:/Users/mras0142/Documents/GitHub/Developing_Data_Products/Map_markers/map-marker-light-green.png", iconWidth = 32, iconHeight =32, iconAnchorX = 16, iconAnchorY = 32),
-                       yellow = makeIcon("C:/Users/mras0142/Documents/GitHub/Developing_Data_Products/Map_markers/map-marker-yellow.png", iconWidth = 32, iconHeight =32, iconAnchorX = 16, iconAnchorY = 32),
-                       orange = makeIcon("C:/Users/mras0142/Documents/GitHub/Developing_Data_Products/Map_markers/map-marker-orange.png", iconWidth = 32, iconHeight =32, iconAnchorX = 16, iconAnchorY = 32),
-                       red = makeIcon("C:/Users/mras0142/Documents/GitHub/Developing_Data_Products/Map_markers/map-marker-red.png", iconWidth = 32, iconHeight =32, iconAnchorX = 16, iconAnchorY = 32))
-for_pop_ups <- paste0(final_for_display $University, 
-                      "<br> Publications ", 
-                      final_for_display$n,
-                      "<br> First 5 publications <br>",
-                      final_for_display$link
-)
+#lon_lat <- left_join(
+#  lon_lat, 
+#  search_name,
+#  by = c("lon", "lat")) %>%
+#  select(-starts_with("uni_Ls"), -starts_with("n_to_all"))
+
+#save(lon_lat, file = "C:/Kurser/Data_medline/lon_lat.Rdata")
+
+load("C:/Kurser/Data_medline/lon_lat.Rdata")
+
+affiliations3 <- left_join(affiliations2, lon_lat, by= "University") %>%
+  filter(!is.na(Search))
+
+final <- bind_rows(aff1.3, aff2.3, aff3.3, aff4.3, aff5.3, aff6.3, affiliations3)
