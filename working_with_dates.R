@@ -14,6 +14,7 @@ library(dplyr); library(ggmap)
 # source('medline.R')
 # medline_records <- medline("/home/user/Downloads/pubmed_results.txt")
 ##########################################################################
+setwd("C:/Kurser/Developing_Data_Products2")
 medline = function(file_name){
   lines <- readLines(file_name)
   medline_records <- list()
@@ -170,3 +171,5 @@ affiliations3 <- left_join(affiliations2, lon_lat, by= "University") %>%
   filter(!is.na(Search))
 
 final <- bind_rows(aff1.3, aff2.3, aff3.3, aff4.3, aff5.3, aff6.3, affiliations3)
+library(readr)
+write_csv(final, "final_data_for_app.csv")
