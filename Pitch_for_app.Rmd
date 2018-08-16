@@ -1,0 +1,42 @@
+---
+title: "Academic output of universities"
+author: "Magnus Ahlström"
+date: "15 aug 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T)
+```
+
+```{r, echo = F}
+source("medline.R")
+library(ggmap)
+```
+
+****
+
+###The basic idea
+- To use meta data on articles from the medline database to rank universities based on their academic output.
+
+###Data collection
+
+- Metadata was collected by manually downloading medline files from pubmed and parsing these to R readable lists, read about it [here](https://mlbernauer.wordpress.com/2014/12/15/parsing-medline-files-in-r/).
+
+- From these lists author affiliations were extracted and mined for information on university.
+
+- I then used the geocode function from [ggmap package](http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf) to find coordinates of the universities to be able to display them on a leaflet map. 
+
+- Finally I extracted publication date and pubmed-ids to be able to filter proporly and link to articles.
+
+##Example
+
+```{r, message = F}
+med <- medline("medline_file_PMID28657967.txt")[[1]]
+aff <- strsplit(med$AD, ";")[[1]][1]
+re <- "\\,[[:alpha:][:space:]]*[Uu][Nn][Ii][Vv][[:alpha:][:space:]]*\\,"
+ind <- regexpr(re, aff)
+uni <- sub("^\\,\\ ", "", substr(aff, ind, ind[1] + attributes(ind)[[1]]))
+uni
+geocode(uni, source = "dsk")
+```

@@ -1,0 +1,36 @@
+
+PMID- 28657967
+OWN - NLM
+STAT- In-Data-Review
+LR  - 20170628
+IS  - 1473-5571 (Electronic)
+IS  - 0269-9370 (Linking)
+VI  - 31
+IP  - 11
+DP  - 2017 Jul 17
+TI  - Publication trends during the HIV pandemic: contributions by country.
+PG  - 1646-1647
+LID - 10.1097/QAD.0000000000001548 [doi]
+FAU - Ronit, Andreas
+AU  - Ronit A
+AD  - Department of Infectious Diseases 8632, Rigshospitalet, University of Copenhagen,
+      Copenhagen, Denmark. *Andreas Ronit and Magnus G. Ahlstrom contributed equally to
+      the idea, analyses, figures, and drafted the article.
+FAU - Ahlstrom, Magnus G
+AU  - Ahlstrom MG
+LA  - eng
+PT  - Journal Article
+PL  - England
+TA  - AIDS
+JT  - AIDS (London, England)
+JID - 8710219
+EDAT- 2017/06/29 06:00
+MHDA- 2017/06/29 06:00
+CRDT- 2017/06/29 06:00
+PHST- 2017/06/29 06:00 [entrez]
+PHST- 2017/06/29 06:00 [pubmed]
+PHST- 2017/06/29 06:00 [medline]
+AID - 10.1097/QAD.0000000000001548 [doi]
+AID - 00002030-201707170-00019 [pii]
+PST - ppublish
+SO  - AIDS. 2017 Jul 17;31(11):1646-1647. doi: 10.1097/QAD.0000000000001548.
