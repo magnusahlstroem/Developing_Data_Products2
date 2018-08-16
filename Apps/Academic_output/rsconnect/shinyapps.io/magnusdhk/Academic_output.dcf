@@ -1,0 +1,12 @@
+name: Academic_output
+title: Academic_output
+username:
+account: magnusdhk
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 400300
+bundleId: 1535992
+url: https://magnusdhk.shinyapps.io/Academic_output/
+when: 1534331470.126
+asMultiple: FALSE
+asStatic: FALSE
