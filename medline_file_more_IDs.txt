@@ -1,0 +1,2190 @@
+
+PMID- 29682306
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20180425
+IS  - 2055-6640 (Print)
+IS  - 2055-6640 (Linking)
+VI  - 4
+IP  - 2
+DP  - 2018 Apr 1
+TI  - Anti-mullerian hormone levels are reduced in women living with human
+      immunodeficiency virus compared to control women: a case-control study from
+      Copenhagen, Denmark.
+PG  - 123-127
+AB  - Objectives: Anti-mullerian hormone (AMH) is a marker of ovarian reserve. The
+      purpose of this study was to compare AMH in women living with HIV with an
+      age-matched control group of HIV-uninfected women, and to identify possible
+      variables associated with decreasing AMH levels in women living with HIV.
+      Methods: AMH was measured in frozen EDTA samples from 84 white women living with 
+      HIV, aged 20 -40 years, with fully suppressed HIV RNA viral loads for at least 6 
+      months and no hepatitis B or C virus co-infection. All women living with HIV were
+      age-matched with HIV-uninfected control women. Results: Eighty-four women living 
+      with HIV and 252 control women were included. Median age for the women living
+      with HIV was 33.5 years (interquartile range [IQR] 30.6-35.3), and 33.2 years
+      (IQR 30.6-35.5) for the control women. A significant difference (P=0.03) was
+      found in the mean AMH levels for all age groups combined, which was 17.23 pmol/L 
+      (95% confidence interval [CI] 14.56-19.89) in the women living with HIV versus
+      21.65 pmol/L (95% CI 19.50-23.81) in the control women, although levels were
+      within reference limits in both groups.Only increasing age was significantly
+      associated with decreasing AMH levels and not CD4 cell count, AIDS prior to
+      inclusion, antiretroviral treatment/lack of treatment or antiretroviral treatment
+      regimen. Conclusions: Well-treated, white women living with HIV in Denmark, have 
+      reduced AMH levels compared with age-matched control HIV-uninfected women. The
+      only variable associated with decreasing AMH levels in women living with HIV was 
+      increasing age.
+FAU - Wessman, Maria
+AU  - Wessman M
+FAU - Korsholm, Anne-Sofie
+AU  - Korsholm AS
+AD  - The Fertility Clinic, Copenhagen University Hospital, Rigshospitalet, Denmark.
+FAU - Bentzen, Janne Gasseholm
+AU  - Bentzen JG
+AD  - The Fertility Clinic, Copenhagen University Hospital, Rigshospitalet, Denmark.
+FAU - Andersen, Anders Nyboe
+AU  - Andersen AN
+AD  - The Fertility Clinic, Copenhagen University Hospital, Rigshospitalet, Denmark.
+FAU - Ahlstrom, Magnus Glindvad
+AU  - Ahlstrom MG
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Denmark.
+FAU - Katzenstein, Terese Lea
+AU  - Katzenstein TL
+FAU - Weis, Nina
+AU  - Weis N
+LA  - eng
+PT  - Editorial
+DEP - 20180401
+PL  - England
+TA  - J Virus Erad
+JT  - Journal of virus eradication
+JID - 101654142
+PMC - PMC5892676
+OTO - NOTNLM
+OT  - human immunodeficiency virus; women; anti-mullerian hormone
+EDAT- 2018/04/24 06:00
+MHDA- 2018/04/24 06:01
+CRDT- 2018/04/24 06:00
+PHST- 2018/04/24 06:00 [entrez]
+PHST- 2018/04/24 06:00 [pubmed]
+PHST- 2018/04/24 06:01 [medline]
+PST - epublish
+SO  - J Virus Erad. 2018 Apr 1;4(2):123-127.
+
+PMID- 26357490
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DCOM- 20150911
+LR  - 20170220
+IS  - 1179-1349 (Print)
+IS  - 1179-1349 (Linking)
+VI  - 7
+DP  - 2015
+TI  - Smoking and renal function in people living with human immunodeficiency virus: a 
+      Danish nationwide cohort study.
+PG  - 391-9
+LID - 10.2147/CLEP.S83530 [doi]
+AB  - INTRODUCTION: Smoking is a main risk factor for morbidity and mortality in people
+      living with human immunodeficiency virus (PLHIV), but its potential association
+      with renal impairment remains to be established. METHODS: We did a nationwide
+      population-based cohort study in Danish PLHIV to evaluate the association between
+      smoking status and 1) overall renal function and risk of chronic kidney disease
+      (CKD), 2) risk of any renal replacement therapy (aRRT), and 3) mortality
+      following aRRT. We calculated estimated creatinine clearance using the
+      Cockcroft-Gault equation (CG-CrCl), and evaluated renal function graphically. We 
+      calculated cumulative incidence of CKD (defined as two consecutive CG-CrCls of
+      </=60 mL/min, >/=3 months apart) and aRRT and used Cox regression models to
+      calculate incidence rate ratios (IRRs) for risk of CKD, aRRT, and mortality rate 
+      ratios (MRRs) following aRRT. RESULTS: From the Danish HIV Cohort Study, we
+      identified 1,475 never smokers, 768 previous smokers, and 2,272 current smokers. 
+      During study period, we observed no association of smoking status with overall
+      renal function. Previous and current smoking was not associated with increased
+      risk of CKD (adjusted IRR: 1.1, 95% confidence interval [CI]: 0.7-1.7; adjusted
+      IRR: 1.3, 95% CI: 0.9-1.8) or aRRT (adjusted IRR: 0.8, 95% CI: 0.4-1.7; adjusted 
+      IRR: 0.9, 95% CI: 0.5-1.7). Mortality following aRRT was high in PLHIV and
+      increased in smokers vs never smokers (adjusted MRR: 3.8, 95% CI: 1.3-11.2).
+      CONCLUSION: In Danish PLHIV, we observed no strong association between smoking
+      status and renal function, risk of CKD, or risk of aRRT, but mortality was
+      increased in smokers following aRRT.
+FAU - Ahlstrom, Magnus Glindvad
+AU  - Ahlstrom MG
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+FAU - Feldt-Rasmussen, Bo
+AU  - Feldt-Rasmussen B
+AD  - Department of Nephrology, Copenhagen University Hospital, Rigshospitalet,
+      Copenhagen, Denmark.
+FAU - Legarth, Rebecca
+AU  - Legarth R
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+FAU - Kronborg, Gitte
+AU  - Kronborg G
+AD  - Department of Infectious Diseases, Copenhagen University Hospital, Hvidovre,
+      Denmark.
+FAU - Pedersen, Court
+AU  - Pedersen C
+AD  - Department of Infectious Diseases, Odense University Hospital, Odense, Denmark.
+FAU - Larsen, Carsten Schade
+AU  - Larsen CS
+AD  - Department of Infectious Diseases, Aarhus University Hospital, Skejby, Aarhus,
+      Denmark.
+FAU - Gerstoft, Jan
+AU  - Gerstoft J
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+FAU - Obel, Niels
+AU  - Obel N
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+LA  - eng
+PT  - Journal Article
+DEP - 20150828
+PL  - New Zealand
+TA  - Clin Epidemiol
+JT  - Clinical epidemiology
+JID - 101531700
+PMC - PMC4559253
+OTO - NOTNLM
+OT  - chronic kidney disease
+OT  - creatinine clearance
+OT  - incidence rate ratio
+OT  - mortality
+OT  - mortality rate ratio
+OT  - renal replacement therapy
+EDAT- 2015/09/12 06:00
+MHDA- 2015/09/12 06:01
+CRDT- 2015/09/11 06:00
+PHST- 2015/09/11 06:00 [entrez]
+PHST- 2015/09/12 06:00 [pubmed]
+PHST- 2015/09/12 06:01 [medline]
+AID - 10.2147/CLEP.S83530 [doi]
+AID - clep-7-391 [pii]
+PST - epublish
+SO  - Clin Epidemiol. 2015 Aug 28;7:391-9. doi: 10.2147/CLEP.S83530. eCollection 2015.
+
+PMID- 28790866
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20170811
+IS  - 1179-1349 (Print)
+IS  - 1179-1349 (Linking)
+VI  - 9
+DP  - 2017
+TI  - Incidence, clinical presentation, and outcome of HIV-1-associated cryptococcal
+      meningitis during the highly active antiretroviral therapy era: a nationwide
+      cohort study.
+PG  - 385-392
+LID - 10.2147/CLEP.S135309 [doi]
+AB  - BACKGROUND: Human immunodeficiency virus (HIV) infection with advanced
+      immunosuppression predisposes to cryptococcal meningitis (CM). We describe the
+      incidence, clinical presentation, and outcome of CM in HIV-infected individuals
+      during the highly active antiretroviral therapy (HAART) era. METHODS: A
+      nationwide, population-based cohort of HIV-infected individuals was used to
+      estimate incidence and mortality of CM including risk factors. A description of
+      neurological symptoms of CM at presentation and follow-up in the study period
+      1995-2014 was included in this study. RESULTS: Among 6,351 HIV-infected
+      individuals, 40 were diagnosed with CM. The incidence rates were 3.7, 1.8, and
+      0.3 per 1000 person-years at risk in 1995-1996, 1997-1999, and 2000-2014,
+      respectively. Initiation of HAART was associated with decreased risk of acquiring
+      CM [incidence rate ratio (IRR), 0.1 (95% CI, 0.05-0.22)]. African origin was
+      associated with increased risk of CM [IRR, 2.05 (95% CI, 1.00-4.20)]. The main
+      signs and symptoms at presentation were headache, cognitive deficits, fever, neck
+      stiffness, nausea, and vomiting. All individuals diagnosed with CM had a CD4(+)
+      cell count <200 cells/microl [median 26; interquartile range (IQR), 10-50)].
+      Overall, mortality following CM was high and mortality in the first 4 months has 
+      not changed substantially over time. However, individuals who survived generally 
+      had a favorable prognosis, with 86% (18/21) returning to the pre-CM level of
+      activity. CONCLUSION: The incidence of HIV-associated CM has decreased
+      substantially after the introduction of HAART. To further decrease CM incidence
+      and associated mortality, early HIV diagnosis and HAART initiation seems crucial.
+FAU - Touma, Madeleine
+AU  - Touma M
+AD  - Department of Infectious Diseases, Rigshospitalet, Copenhagen University
+      Hospital, Copenhagen.
+FAU - Rasmussen, Line D
+AU  - Rasmussen LD
+AD  - Department of Infectious Diseases, Odense University Hospital, Odense.
+FAU - Martin-Iguacel, Raquel
+AU  - Martin-Iguacel R
+AD  - Department of Infectious Diseases, Odense University Hospital, Odense.
+FAU - Engsig, Frederik Neess
+AU  - Engsig FN
+AD  - Department of Infectious Diseases, Copenhagen University Hospital, Hvidovre.
+FAU - Staerke, Nina Breinholt
+AU  - Staerke NB
+AD  - Department of Infectious Diseases, Aarhus University Hospital, Aarhus.
+FAU - Staerkind, Mette
+AU  - Staerkind M
+AD  - Department of Infectious Diseases, Aalborg University Hospital, Aalborg, Denmark.
+FAU - Obel, Niels
+AU  - Obel N
+AD  - Department of Infectious Diseases, Rigshospitalet, Copenhagen University
+      Hospital, Copenhagen.
+FAU - Ahlstrom, Magnus Glindvad
+AU  - Ahlstrom MG
+AD  - Department of Infectious Diseases, Rigshospitalet, Copenhagen University
+      Hospital, Copenhagen.
+LA  - eng
+PT  - Journal Article
+DEP - 20170721
+PL  - New Zealand
+TA  - Clin Epidemiol
+JT  - Clinical epidemiology
+JID - 101531700
+PMC - PMC5531720
+OTO - NOTNLM
+OT  - HIV
+OT  - cryptococcal meningitis
+OT  - highly active antiretroviral therapy
+COIS- Disclosures NO has received research funding from Roche, Bristol-Myers Squibb,
+      Merck Sharp & Dohme, GlaxoSmithKline, Abbott, Boehringer Ingelheim,
+      Janssen-Cilag, and Swedish Orphan. MGA has received research funding from the
+      research board of Copenhagen University Hospital, Rigshospitalet, and from the
+      Bjorn Astrups fund, and has received travel grants from GSK and Janssen. The
+      sponsors had no role in the design, conduct, or analysis of the study nor in the 
+      decision to publish the manuscript. The authors report no other conflicts of
+      interest in this work.
+EDAT- 2017/08/10 06:00
+MHDA- 2017/08/10 06:01
+CRDT- 2017/08/10 06:00
+PHST- 2017/08/10 06:00 [entrez]
+PHST- 2017/08/10 06:00 [pubmed]
+PHST- 2017/08/10 06:01 [medline]
+AID - 10.2147/CLEP.S135309 [doi]
+AID - clep-9-385 [pii]
+PST - epublish
+SO  - Clin Epidemiol. 2017 Jul 21;9:385-392. doi: 10.2147/CLEP.S135309. eCollection
+      2017.
+
+PMID- 28472812
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180523
+LR  - 20180523
+IS  - 2235-3186 (Electronic)
+IS  - 1660-8151 (Linking)
+VI  - 136
+IP  - 4
+DP  - 2017
+TI  - Agreement between Estimated and Measured Renal Function in an Everyday Clinical
+      Outpatient Setting of Human Immunodeficiency Virus-Infected Individuals.
+PG  - 318-327
+LID - 10.1159/000469668 [doi]
+AB  - INTRODUCTION: Estimated renal function (eRF) has been widely implemented as a
+      screening tool in handling human immunodeficiency virus (HIV)-infected
+      individuals. Our primary objective was to investigate the agreement between
+      measured renal function (mRF) and eRF in HIV-infected individuals in an everyday 
+      clinical setting. METHODS: A single-center study at the HIV-outpatient clinic at 
+      Copenhagen University Hospital, Rigshospitalet. Study period from January 1,
+      2004-June 1, 2015. We included all HIV-infected individuals who had an mRF
+      performed and compared this with eRF assessed with 9 different
+      serum-creatinine-based equations and the eRF reported by the Department of
+      Clinical Biochemistry. We evaluated performance characteristics of the different 
+      eRFs, with concordance correlation coefficient, total deviation index, coverage
+      probability, relative accuracy, and Bland Altman plots. We also evaluated whether
+      exposure to (1) rilpivirine, cobicistat, or dolutegravir (RLP/COB/DTG), (2)
+      protease inhibitors (PIs), or (3) tenofovir disoproxil fumarate (TDF) had an
+      impact on agreement. Furthermore, we compared inter- and intra-individual
+      differences between mRF and eRF. RESULTS: Ninety-eight individuals had an mRF
+      performed during the study period. We found that the agreement between mRF and
+      eRF was poor irrespective of the eRF equation. Exposure to RLP/COB/DTG and PIs
+      was not associated with different agreement. Exposure to TDF was associated with 
+      statistically significant better agreement for 3 of the evaluated equations.
+      CONCLUSION: Irrespective of calculation methods, the agreement between mRF and
+      eRF is poor. Surprisingly TDF exposure was associated with a better agreement
+      compared with TDF-unexposed individuals.
+CI  - (c) 2017 S. Karger AG, Basel.
+FAU - Ahlstrom, Magnus Glindvad
+AU  - Ahlstrom MG
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+FAU - Kjaer, Andreas
+AU  - Kjaer A
+FAU - Gerstoft, Jan
+AU  - Gerstoft J
+FAU - Obel, Niels
+AU  - Obel N
+LA  - eng
+PT  - Journal Article
+DEP - 20170505
+PL  - Switzerland
+TA  - Nephron
+JT  - Nephron
+JID - 0331777
+RN  - 0 (Anti-HIV Agents)
+RN  - 0 (HIV Protease Inhibitors)
+RN  - AYI8EX34EU (Creatinine)
+SB  - IM
+MH  - Adult
+MH  - Anti-HIV Agents/adverse effects/therapeutic use
+MH  - Cohort Studies
+MH  - Creatinine/blood
+MH  - Denmark
+MH  - Female
+MH  - Glomerular Filtration Rate
+MH  - HIV Infections/drug therapy/*physiopathology
+MH  - HIV Protease Inhibitors/adverse effects/therapeutic use
+MH  - Humans
+MH  - *Kidney Function Tests
+MH  - Male
+MH  - Middle Aged
+MH  - Outpatients
+MH  - Reproducibility of Results
+OTO - NOTNLM
+OT  - Glomerular filtration rate
+OT  - Human immunodeficiency virus
+OT  - Nephrotoxicity
+OT  - Predicted creatinine clearance
+EDAT- 2017/05/05 06:00
+MHDA- 2018/05/24 06:00
+CRDT- 2017/05/05 06:00
+PHST- 2016/12/13 00:00 [received]
+PHST- 2017/03/08 00:00 [accepted]
+PHST- 2017/05/05 06:00 [pubmed]
+PHST- 2018/05/24 06:00 [medline]
+PHST- 2017/05/05 06:00 [entrez]
+AID - 000469668 [pii]
+AID - 10.1159/000469668 [doi]
+PST - ppublish
+SO  - Nephron. 2017;136(4):318-327. doi: 10.1159/000469668. Epub 2017 May 5.
+
+PMID- 26334734
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20160614
+LR  - 20160113
+IS  - 1944-7884 (Electronic)
+IS  - 1525-4135 (Linking)
+VI  - 71
+IP  - 2
+DP  - 2016 Feb 1
+TI  - Long-Term Mortality in HIV-Infected Individuals 50 Years or Older: A Nationwide, 
+      Population-Based Cohort Study.
+PG  - 213-8
+LID - 10.1097/QAI.0000000000000825 [doi]
+AB  - BACKGROUND: Although the prevalence of HIV-infection among individuals >/= 50
+      years of age has increased, the impact of HIV-infection on risk of death in this 
+      population remains to be established. Our aim was to estimate long-term mortality
+      among HIV-infected individuals who were 50 years or older, when compared with an 
+      individually-matched cohort from the background population. METHODS:
+      Population-based cohort-study including HIV-infected individuals >/= 50 years,
+      who were alive 1 year after HIV-diagnosis (n = 2440) and a comparison cohort
+      individually-matched by age and gender extracted from the background population
+      (n = 14,588). Cumulative survival was evaluated using Kaplan-Meier method and
+      Mortality Rate Ratios (MRRs) were estimated using Cox Regression Models. Study
+      period 1996-2014. RESULTS: Estimated median survival time from age 50 years for
+      HIV-infected individuals increased from 11.8 years (95% CI: 10.2 to 14.5) during 
+      1996-1999 to 22.8 years (20.0-24.2) in 2006-2014. MRR decreased with increasing
+      age from 3.8 (3.1-4.7) for 50-55 years to 1.6 (1.0-2.6) for 75-80 years. In a
+      cohort of well-treated HIV-infected individuals >/= 50 years without
+      AIDS-defining events or comorbidity at study inclusion (n = 517). MRR was 1.7
+      (1.2-2.3) compared with population controls without comorbidity. CONCLUSION:
+      Among HIV-infected individuals estimated median survival time from age 50 years
+      has increased by more than 10 years from 1996-1999 to 2006-2014, but is still
+      substantially lower than in the background population. Even among well-treated
+      HIV-infected individuals >/= 50 years without comorbidity or AIDS-defining events
+      the estimated median survival time remains lower than in the general population.
+FAU - Legarth, Rebecca A
+AU  - Legarth RA
+AD  - *Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark; daggerDepartment of Infectious Diseases,
+      Copenhagen University Hospital, Hvidovre, Denmark; double daggerDepartment of
+      Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark; section
+      signDepartment of Infectious Diseases, Odense University Hospital, Odense,
+      Denmark; ||Department of Infectious Diseases, Aalborg University Hospital,
+      Aalborg, Denmark; and paragraph signDepartment of Internal Medicine, The Regional
+      Hospital West Jutland, Herning, Denmark.
+FAU - Ahlstrom, Magnus G
+AU  - Ahlstrom MG
+FAU - Kronborg, Gitte
+AU  - Kronborg G
+FAU - Larsen, Carsten S
+AU  - Larsen CS
+FAU - Pedersen, Court
+AU  - Pedersen C
+FAU - Pedersen, Gitte
+AU  - Pedersen G
+FAU - Mohey, Rajesh
+AU  - Mohey R
+FAU - Gerstoft, Jan
+AU  - Gerstoft J
+FAU - Obel, Niels
+AU  - Obel N
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PL  - United States
+TA  - J Acquir Immune Defic Syndr
+JT  - Journal of acquired immune deficiency syndromes (1999)
+JID - 100892005
+SB  - IM
+SB  - X
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Cause of Death
+MH  - Cohort Studies
+MH  - Comorbidity
+MH  - Denmark/epidemiology
+MH  - Female
+MH  - HIV Infections/epidemiology/*mortality
+MH  - Humans
+MH  - Kaplan-Meier Estimate
+MH  - Male
+MH  - Middle Aged
+MH  - Proportional Hazards Models
+MH  - Research Design
+EDAT- 2015/09/04 06:00
+MHDA- 2016/06/15 06:00
+CRDT- 2015/09/04 06:00
+PHST- 2015/09/04 06:00 [entrez]
+PHST- 2015/09/04 06:00 [pubmed]
+PHST- 2016/06/15 06:00 [medline]
+AID - 10.1097/QAI.0000000000000825 [doi]
+PST - ppublish
+SO  - J Acquir Immune Defic Syndr. 2016 Feb 1;71(2):213-8. doi:
+      10.1097/QAI.0000000000000825.
+
+PMID- 27660491
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DCOM- 20160923
+LR  - 20170220
+IS  - 1179-1349 (Print)
+IS  - 1179-1349 (Linking)
+VI  - 8
+DP  - 2016
+TI  - Five-year risk of HIV diagnosis subsequent to 147 hospital-based indicator
+      diseases: a Danish nationwide population-based cohort study.
+PG  - 333-40
+LID - 10.2147/CLEP.S101288 [doi]
+AB  - BACKGROUND: It has been suggested that targeted human immunodeficiency virus
+      (HIV) testing programs are cost-effective in populations with an HIV prevalence
+      >0.1%. Several indicator diseases are known to be associated with increased risk 
+      of HIV infection, but estimates of HIV frequency in persons with relevant
+      indicator diseases are nonexistent. METHODS: In a nationwide population-based
+      cohort study encompassing all Danish residents aged 20-60 years during 1994-2013,
+      we estimated the 5-year risk of an HIV diagnosis (FYRHD) after a first-time
+      diagnosis of 147 prespecified potential indicator diseases. To estimate the risk 
+      of HIV diagnosis in the general population without any indicator diseases, we
+      calculated the FYRHD starting at age 25, 35, 45, and 55 years. RESULTS: The risk 
+      in the male general population was substantially higher than the female general
+      population, and the risk was lower in the older age categories. Individuals of
+      African origin had a higher FYRHD than individuals of Danish origin. A number of 
+      diseases were identified with a FYRHD >0.1%, with infectious diseases, such as
+      syphilis, hepatitis, and endocarditis, associated with a particularly high FYRHD.
+      Other potential indicator diseases, such as most urologic, nephrologic,
+      rheumatologic, and endocrine disorders were generally associated with a low
+      FYRHD. CONCLUSION: Our study identified a large number of indicator diseases
+      associated with a FYRHD >0.1%. These data can be used as a tool for planning
+      targeted HIV screening programs.
+FAU - Omland, Lars Haukali
+AU  - Omland LH
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen.
+FAU - Legarth, Rebecca
+AU  - Legarth R
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen.
+FAU - Ahlstrom, Magnus Glindvad
+AU  - Ahlstrom MG
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen.
+FAU - Sorensen, Henrik Toft
+AU  - Sorensen HT
+AD  - Department of Clinical Epidemiology, Aarhus University Hospital, Aarhus, Denmark.
+FAU - Obel, Niels
+AU  - Obel N
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen.
+LA  - eng
+PT  - Journal Article
+DEP - 20160906
+PL  - New Zealand
+TA  - Clin Epidemiol
+JT  - Clinical epidemiology
+JID - 101531700
+EIN - Clin Epidemiol. 2016 Nov 18;8:769. PMID: 27920577
+PMC - PMC5019186
+OTO - NOTNLM
+OT  - HIV
+OT  - HIV screening
+OT  - indicator diseases
+OT  - public health
+EDAT- 2016/09/24 06:00
+MHDA- 2016/09/24 06:01
+CRDT- 2016/09/24 06:00
+PHST- 2016/09/24 06:00 [entrez]
+PHST- 2016/09/24 06:00 [pubmed]
+PHST- 2016/09/24 06:01 [medline]
+AID - 10.2147/CLEP.S101288 [doi]
+AID - clep-8-333 [pii]
+PST - epublish
+SO  - Clin Epidemiol. 2016 Sep 6;8:333-40. doi: 10.2147/CLEP.S101288. eCollection 2016.
+
+PMID- 27744394
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20171221
+LR  - 20180209
+IS  - 0315-162X (Print)
+IS  - 0315-162X (Linking)
+VI  - 44
+IP  - 1
+DP  - 2017 Jan
+TI  - Risk of Diabetes Mellitus among Patients Diagnosed with Giant Cell Arteritis or
+      Granulomatosis with Polyangiitis: Comparison with the General Population.
+PG  - 78-83
+LID - 10.3899/jrheum.160797 [doi]
+AB  - OBJECTIVE: Patients with organ- or life-threatening vasculitis receive high
+      cumulative glucocorticoid (GC) doses during their disease course. GC have
+      diabetogenic effects, but the risk of diabetes mellitus (DM) related to
+      vasculitis therapy is not well characterized. We assessed the DM risk among
+      patients diagnosed with giant cell arteritis (GCA) or granulomatosis with
+      polyangiitis (GPA), i.e., patients with relatively common forms of systemic
+      vasculitis. METHODS: We used Danish healthcare registries to identify 1682
+      patients diagnosed with GCA and 342 patients diagnosed with GPA from 1997 to 2015
+      and to obtain information regarding medication exposures. Each patient with
+      vasculitis was matched with 9 population controls. Date of new-onset DM was
+      defined as date of first claimed prescription for an antidiabetic drug. We used
+      Cox regression analyses to calculate incidence rate ratios (IRR) for DM as a
+      measure of the DM risk among patients relative to population controls. Logistic
+      regression was used to study the association between prednisolone/prednisone
+      (PRED) dose and DM. RESULTS: Median duration of followup was 6.5 years
+      [interquartile range (IQR) 2.6-10.4] in the GCA cohort and 5.8 years (IQR
+      1.7-10.6) in the GPA cohort. During the first year after diagnosis of vasculitis,
+      the IRR for DM was 7.0 (95% CI 5.2-9.3) among patients with GCA and 10.4 (95% CI 
+      4.4-24) among patients with GPA. IRR for DM were not significantly increased in
+      either cohort during later followup periods. Within the first year, treatment
+      with high cumulative prednisolone/PRED doses was associated with new-onset DM
+      among the patients with vasculitis. CONCLUSION: Patients diagnosed with GCA or
+      GPA have a markedly increased risk of new-onset DM during early treatment phases.
+FAU - Faurschou, Mikkel
+AU  - Faurschou M
+AD  - From the Copenhagen Lupus and Vasculitis Clinic, Center for Rheumatology and
+      Spine Diseases; Department of Infectious Diseases, Copenhagen University
+      Hospital, Rigshospitalet, Copenhagen, Denmark. mikkelf@dadlnet.dk.
+AD  - M. Faurschou, MD, PhD, Copenhagen Lupus and Vasculitis Clinic, Center for
+      Rheumatology and Spine Diseases; M.G. Ahlstrom, MD, Department of Infectious
+      Diseases, Copenhagen University Hospital, Rigshospitalet; J. Lindhardsen, MD,
+      PhD, Copenhagen Lupus and Vasculitis Clinic, Center for Rheumatology and Spine
+      Diseases; N. Obel, Professor, MD, DMSci, Department of Infectious Diseases,
+      Copenhagen University Hospital, Rigshospitalet; B. Baslund, MD, PhD, Copenhagen
+      Lupus and Vasculitis Clinic, Center for Rheumatology and Spine Diseases.
+      mikkelf@dadlnet.dk.
+FAU - Ahlstrom, Magnus G
+AU  - Ahlstrom MG
+AD  - From the Copenhagen Lupus and Vasculitis Clinic, Center for Rheumatology and
+      Spine Diseases; Department of Infectious Diseases, Copenhagen University
+      Hospital, Rigshospitalet, Copenhagen, Denmark.
+AD  - M. Faurschou, MD, PhD, Copenhagen Lupus and Vasculitis Clinic, Center for
+      Rheumatology and Spine Diseases; M.G. Ahlstrom, MD, Department of Infectious
+      Diseases, Copenhagen University Hospital, Rigshospitalet; J. Lindhardsen, MD,
+      PhD, Copenhagen Lupus and Vasculitis Clinic, Center for Rheumatology and Spine
+      Diseases; N. Obel, Professor, MD, DMSci, Department of Infectious Diseases,
+      Copenhagen University Hospital, Rigshospitalet; B. Baslund, MD, PhD, Copenhagen
+      Lupus and Vasculitis Clinic, Center for Rheumatology and Spine Diseases.
+FAU - Lindhardsen, Jesper
+AU  - Lindhardsen J
+AD  - From the Copenhagen Lupus and Vasculitis Clinic, Center for Rheumatology and
+      Spine Diseases; Department of Infectious Diseases, Copenhagen University
+      Hospital, Rigshospitalet, Copenhagen, Denmark.
+AD  - M. Faurschou, MD, PhD, Copenhagen Lupus and Vasculitis Clinic, Center for
+      Rheumatology and Spine Diseases; M.G. Ahlstrom, MD, Department of Infectious
+      Diseases, Copenhagen University Hospital, Rigshospitalet; J. Lindhardsen, MD,
+      PhD, Copenhagen Lupus and Vasculitis Clinic, Center for Rheumatology and Spine
+      Diseases; N. Obel, Professor, MD, DMSci, Department of Infectious Diseases,
+      Copenhagen University Hospital, Rigshospitalet; B. Baslund, MD, PhD, Copenhagen
+      Lupus and Vasculitis Clinic, Center for Rheumatology and Spine Diseases.
+FAU - Obel, Niels
+AU  - Obel N
+AD  - From the Copenhagen Lupus and Vasculitis Clinic, Center for Rheumatology and
+      Spine Diseases; Department of Infectious Diseases, Copenhagen University
+      Hospital, Rigshospitalet, Copenhagen, Denmark.
+AD  - M. Faurschou, MD, PhD, Copenhagen Lupus and Vasculitis Clinic, Center for
+      Rheumatology and Spine Diseases; M.G. Ahlstrom, MD, Department of Infectious
+      Diseases, Copenhagen University Hospital, Rigshospitalet; J. Lindhardsen, MD,
+      PhD, Copenhagen Lupus and Vasculitis Clinic, Center for Rheumatology and Spine
+      Diseases; N. Obel, Professor, MD, DMSci, Department of Infectious Diseases,
+      Copenhagen University Hospital, Rigshospitalet; B. Baslund, MD, PhD, Copenhagen
+      Lupus and Vasculitis Clinic, Center for Rheumatology and Spine Diseases.
+FAU - Baslund, Bo
+AU  - Baslund B
+AD  - From the Copenhagen Lupus and Vasculitis Clinic, Center for Rheumatology and
+      Spine Diseases; Department of Infectious Diseases, Copenhagen University
+      Hospital, Rigshospitalet, Copenhagen, Denmark.
+AD  - M. Faurschou, MD, PhD, Copenhagen Lupus and Vasculitis Clinic, Center for
+      Rheumatology and Spine Diseases; M.G. Ahlstrom, MD, Department of Infectious
+      Diseases, Copenhagen University Hospital, Rigshospitalet; J. Lindhardsen, MD,
+      PhD, Copenhagen Lupus and Vasculitis Clinic, Center for Rheumatology and Spine
+      Diseases; N. Obel, Professor, MD, DMSci, Department of Infectious Diseases,
+      Copenhagen University Hospital, Rigshospitalet; B. Baslund, MD, PhD, Copenhagen
+      Lupus and Vasculitis Clinic, Center for Rheumatology and Spine Diseases.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20161015
+PL  - Canada
+TA  - J Rheumatol
+JT  - The Journal of rheumatology
+JID - 7501984
+RN  - 0 (Glucocorticoids)
+RN  - 9PHQ9Y1OLM (Prednisolone)
+RN  - VB0R961HZT (Prednisone)
+SB  - IM
+MH  - Adult
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Comorbidity
+MH  - Denmark/epidemiology
+MH  - Diabetes Mellitus/chemically induced/*epidemiology
+MH  - Female
+MH  - Giant Cell Arteritis/drug therapy/*epidemiology
+MH  - Glucocorticoids/adverse effects/therapeutic use
+MH  - Granulomatosis with Polyangiitis/drug therapy/*epidemiology
+MH  - Humans
+MH  - Incidence
+MH  - Male
+MH  - Middle Aged
+MH  - Prednisolone/adverse effects/therapeutic use
+MH  - Prednisone/adverse effects/therapeutic use
+MH  - Registries
+MH  - Risk
+OTO - NOTNLM
+OT  - *DIABETES MELLITUS
+OT  - *GIANT CELL ARTERITIS
+OT  - *GRANULOMATOSIS WITH POLYANGIITIS
+OT  - *VASCULITIS
+EDAT- 2016/10/17 06:00
+MHDA- 2017/12/22 06:00
+CRDT- 2016/10/17 06:00
+PHST- 2016/09/14 00:00 [accepted]
+PHST- 2016/10/17 06:00 [pubmed]
+PHST- 2017/12/22 06:00 [medline]
+PHST- 2016/10/17 06:00 [entrez]
+AID - jrheum.160797 [pii]
+AID - 10.3899/jrheum.160797 [doi]
+PST - ppublish
+SO  - J Rheumatol. 2017 Jan;44(1):78-83. doi: 10.3899/jrheum.160797. Epub 2016 Oct 15.
+
+PMID- 26615030
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20160722
+LR  - 20160318
+IS  - 1462-0332 (Electronic)
+IS  - 1462-0324 (Linking)
+VI  - 55
+IP  - 4
+DP  - 2016 Apr
+TI  - Impact of pre-existing co-morbidities on mortality in granulomatosis with
+      polyangiitis: a cohort study.
+PG  - 649-53
+LID - 10.1093/rheumatology/kev390 [doi]
+AB  - OBJECTIVE: To assess the impact of pre-existing co-morbidities on mortality among
+      patients affected by granulomatosis with polyangiitis (GPA). METHODS: By means of
+      the Danish National Hospital Register, we identified a cohort of patients
+      hospitalized for GPA during 1994-2010 (n = 308). The burden of pre-existing
+      co-morbidities among the patients was quantified according to the Charlson
+      Comorbidity Index (CCI). Each patient was matched with five age- and
+      gender-matched population controls with no pre-existing co-morbidities captured
+      by the CCI (CCI score = 0). The study subjects were followed throughout 2010. Cox
+      regression analyses were used to calculate mortality rate ratios (MRRs). RESULTS:
+      The median duration of follow-up in the GPA cohort was 5.8 years (interquartile
+      range 2.3-10.0). Compared with their matched population controls, the MRR for
+      patients presenting with a CCI score of 0 (n = 246) was 3.9 (95% CI 2.0, 7.5)
+      during years 0-2 and 1.4 (95% CI 0.9, 2.0) from the second year of follow-up
+      onwards. The corresponding MRRs were 13.3 (95% CI 5.8, 31) and 1.9 (95% CI 1.1,
+      3.6) for patients with a CCI score 1 (n = 62). In a direct comparison, GPA
+      patients with a CCI score 1 were found to have significantly higher mortality
+      than GPA patients with a CCI score of 0 during years 0-2 [adjusted MRR 3.4 (95%
+      CI 1.6, 7.0)] but not after >2 years of follow-up [adjusted MRR 1.3 (95% CI 0.7, 
+      2.6)]. CONCLUSION: During early follow-up periods, the mortality among GPA
+      patients with pre-existing co-morbidities is markedly higher than that among GPA 
+      patients with no pre-existing illnesses. Our analyses identify an increased CCI
+      score for pre-existing co-morbidities as an important risk factor for a fatal
+      outcome in GPA.
+CI  - (c) The Author 2015. Published by Oxford University Press on behalf of the
+      British Society for Rheumatology. All rights reserved. For Permissions, please
+      email: journals.permissions@oup.com.
+FAU - Faurschou, Mikkel
+AU  - Faurschou M
+AD  - Department of Rheumatology, and mikkelf@dadlnet.dk.
+FAU - Ahlstrom, Magnus G
+AU  - Ahlstrom MG
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+FAU - Lindhardsen, Jesper
+AU  - Lindhardsen J
+AD  - Department of Rheumatology, and.
+FAU - Baslund, Bo
+AU  - Baslund B
+AD  - Department of Rheumatology, and.
+FAU - Obel, Niels
+AU  - Obel N
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+LA  - eng
+PT  - Journal Article
+DEP - 20151128
+PL  - England
+TA  - Rheumatology (Oxford)
+JT  - Rheumatology (Oxford, England)
+JID - 100883501
+SB  - AIM
+SB  - IM
+MH  - Adolescent
+MH  - Adult
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Cohort Studies
+MH  - Comorbidity
+MH  - Denmark/epidemiology
+MH  - Female
+MH  - Granulomatosis with Polyangiitis/*mortality
+MH  - Hospitalization/statistics & numerical data
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Registries
+MH  - Severity of Illness Index
+MH  - Young Adult
+OTO - NOTNLM
+OT  - Charlson
+OT  - co-morbidity
+OT  - granulomatosis with polyangiitis
+OT  - mortality
+OT  - vasculitis
+EDAT- 2015/11/29 06:00
+MHDA- 2016/07/23 06:00
+CRDT- 2015/11/29 06:00
+PHST- 2015/07/16 00:00 [received]
+PHST- 2015/11/29 06:00 [entrez]
+PHST- 2015/11/29 06:00 [pubmed]
+PHST- 2016/07/23 06:00 [medline]
+AID - kev390 [pii]
+AID - 10.1093/rheumatology/kev390 [doi]
+PST - ppublish
+SO  - Rheumatology (Oxford). 2016 Apr;55(4):649-53. doi: 10.1093/rheumatology/kev390.
+      Epub 2015 Nov 28.
+
+PMID- 28579301
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180403
+LR  - 20180403
+IS  - 1532-2742 (Electronic)
+IS  - 0163-4453 (Linking)
+VI  - 75
+IP  - 3
+DP  - 2017 Sep
+TI  - Incidence, presentation and outcome of toxoplasmosis in HIV infected in the
+      combination antiretroviral therapy era.
+PG  - 263-273
+LID - S0163-4453(17)30166-4 [pii]
+LID - 10.1016/j.jinf.2017.05.018 [doi]
+AB  - BACKGROUND: HIV-associated incidence and prognosis of cerebral toxoplasmosis
+      (CTX) is not well established during later years. METHODS: From the Danish HIV
+      Cohort Study, we identified 6325 HIV-infected individuals. We assessed incidence,
+      mortality, predictive and prognostic factors of CTX during the pre-combination
+      antiretroviral therapy (pre-cART; 1995-1996) and cART-era (1997-2014). Adjusted
+      incidence rate ratios (aIRR), mortality rate ratios (aMRR) and 95% confidence
+      intervals (CI) were assessed using Poisson regression analysis. RESULTS: CTX IR
+      was 1.17/1000 PYR (95% CI 0.93-1.47). We observed no change in CTX-risk in the
+      first year after HIV-diagnosis, but a substantial reduction in mortality in the
+      first 3 months after CTX diagnosis when comparing the cART-era to the
+      pre-cART-era; {(aIRR: 0.79; 95% CI: 0.37-1.72) (aMRR: 0.15; 95% CI: 0.06-0.38)}. 
+      For individuals surviving the first year after HIV-diagnosis or the first 3
+      months after CTX-diagnosis, IRR and MRR had declined to minimal levels {(aIRR:
+      0.06; 95% CI: 0.03-0.10); (aMRR: 0.02; 95% CI: 0.01-0.05)}. Three years after
+      CTX-diagnosis 30% of the patients still had neurological deficits. CONCLUSION:
+      Although, CTX remains an important cause of morbidity and mortality in the
+      cART-era, with high prevalence of neurological sequelae, incidence and mortality 
+      has largely declined, especially among those surviving the first year after
+      diagnosis.
+CI  - Copyright (c) 2017. Published by Elsevier Ltd.
+FAU - Martin-Iguacel, Raquel
+AU  - Martin-Iguacel R
+AD  - Department of Infectious Diseases, Odense University Hospital, Sondre Boulevard
+      29, 5000 Odense C, Denmark. Electronic address: raquel@bisaurin.org.
+FAU - Ahlstrom, Magnus Glindvad
+AU  - Ahlstrom MG
+AD  - Department of Infectious Diseases, Rigshospitalet, Blegdamsvej 9, 2100
+      Copenhagen, Denmark.
+FAU - Touma, Madeleine
+AU  - Touma M
+AD  - Department of Infectious Diseases, Rigshospitalet, Blegdamsvej 9, 2100
+      Copenhagen, Denmark.
+FAU - Engsig, Frederik Neess
+AU  - Engsig FN
+AD  - Department of Infectious Diseases, Copenhagen University Hospital, Kettegard Alle
+      30, 2650 Hvidovre, Denmark.
+FAU - Staerke, Nina Breinholt
+AU  - Staerke NB
+AD  - Department of Infectious Diseases, Aarhus University Hospital, Palle Juul-Jensens
+      Boulevard 99, 8200 Aarhus, Denmark.
+FAU - Staerkind, Mette
+AU  - Staerkind M
+AD  - Department of Infectious Diseases, Aalborg University Hospital, Hobrovej 18-22,
+      9100 Aalborg, Denmark.
+FAU - Obel, Niels
+AU  - Obel N
+AD  - Department of Infectious Diseases, Rigshospitalet, Blegdamsvej 9, 2100
+      Copenhagen, Denmark.
+FAU - Rasmussen, Line D
+AU  - Rasmussen LD
+AD  - Department of Infectious Diseases, Odense University Hospital, Sondre Boulevard
+      29, 5000 Odense C, Denmark.
+LA  - eng
+PT  - Journal Article
+DEP - 20170601
+PL  - England
+TA  - J Infect
+JT  - The Journal of infection
+JID - 7908424
+RN  - 0 (Anti-HIV Agents)
+SB  - IM
+MH  - AIDS-Related Opportunistic
+      Infections/diagnosis/*epidemiology/mortality/parasitology
+MH  - Adult
+MH  - Anti-HIV Agents/adverse effects/*therapeutic use
+MH  - Antiretroviral Therapy, Highly Active
+MH  - Cohort Studies
+MH  - Denmark/epidemiology
+MH  - Drug Therapy, Combination
+MH  - Female
+MH  - HIV Infections/complications/*drug therapy
+MH  - Humans
+MH  - Incidence
+MH  - Male
+MH  - Middle Aged
+MH  - Poisson Distribution
+MH  - Prognosis
+MH  - Risk Factors
+MH  - Toxoplasmosis, Cerebral/diagnosis/*epidemiology/mortality/parasitology
+OTO - NOTNLM
+OT  - Cerebral toxoplasmosis
+OT  - Combination antiretroviral therapy
+OT  - HIV
+OT  - Opportunistic infections
+EDAT- 2017/06/06 06:00
+MHDA- 2018/04/04 06:00
+CRDT- 2017/06/06 06:00
+PHST- 2017/01/05 00:00 [received]
+PHST- 2017/05/10 00:00 [revised]
+PHST- 2017/05/26 00:00 [accepted]
+PHST- 2017/06/06 06:00 [pubmed]
+PHST- 2018/04/04 06:00 [medline]
+PHST- 2017/06/06 06:00 [entrez]
+AID - S0163-4453(17)30166-4 [pii]
+AID - 10.1016/j.jinf.2017.05.018 [doi]
+PST - ppublish
+SO  - J Infect. 2017 Sep;75(3):263-273. doi: 10.1016/j.jinf.2017.05.018. Epub 2017 Jun 
+      1.
+
+PMID- 26544703
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20160824
+LR  - 20151107
+IS  - 1473-5571 (Electronic)
+IS  - 0269-9370 (Linking)
+VI  - 29
+IP  - 17
+DP  - 2015 Nov
+TI  - Incidence of benign prostate hypertrophy in Danish men with and without HIV
+      infection.
+PG  - 2315-22
+LID - 10.1097/QAD.0000000000000804 [doi]
+AB  - BACKGROUND: Information on risk of benign prostate hypertrophy (BPH) in
+      HIV-infected men is sparse. We aimed to estimate the incidence of being diagnosed
+      with BPH among HIV-infected men compared with an age and sex-matched comparison
+      cohort from the background population. To exclude that family-associated risk
+      factors influence risk of BPH diagnoses in families of HIV-infected individuals, 
+      we estimated risk of BPH in fathers of HIV-infected men and fathers of the
+      comparison cohort. METHODS: In a nationwide, population-based, matched cohort
+      study, we calculated incidence rates and used Poisson regression models to
+      calculate incidence rate ratios (IRRs) of being diagnosed with BPH, defined as
+      the earliest of date of the second redeemed prescription of a drug used to treat 
+      BPH, the first registration of a BPH diagnosis in the Danish National Hospital
+      Registry (DNHR) or the first registration of a surgical procedure for BPH in
+      DNHR. RESULTS: We identified 4633 HIV-infected men, 46 330 comparison cohort
+      individuals, 1585 fathers of HIV-infected men and 20 449 fathers of the
+      comparison cohort. Incidence rate of being diagnosed with BPH was 37.0 [95%
+      confidence interval (95% CI) 31.5-43.1] per 10 000 person-years of follow-up
+      among HIV-infected men and was not increased compared with the comparison cohort 
+      (IRR 1.04, 95% CI 0.88-1.22). Risk was not increased for fathers of HIV-infected 
+      men vs. fathers of the comparison cohort (IRR 0.99, 95% CI 0.87-1.12). Stratified
+      analyses did not change the above results markedly. CONCLUSION: HIV-infected
+      individuals do not have an increased risk of being diagnosed with BPH.
+FAU - Ahlstrom, Magnus Glindvad
+AU  - Ahlstrom MG
+AD  - aDepartment of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet bDepartment of Infectious Diseases, Copenhagen University
+      Hospital, Hvidovre cDepartment of Infectious Diseases, Aarhus University
+      Hospital, Aarhus dDepartment of Infectious Diseases, Odense University Hospital, 
+      Odense, eDepartment of Infectious Diseases, Aalborg University Hospital, Aalborg 
+      fFaculty of Health Sciences, University of Copenhagen, Copenhagen, Denmark.
+FAU - Kronborg, Gitte
+AU  - Kronborg G
+FAU - Larsen, Carsten S
+AU  - Larsen CS
+FAU - Pedersen, Court
+AU  - Pedersen C
+FAU - Pedersen, Gitte
+AU  - Pedersen G
+FAU - Gerstoft, Jan
+AU  - Gerstoft J
+FAU - Obel, Niels
+AU  - Obel N
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PL  - England
+TA  - AIDS
+JT  - AIDS (London, England)
+JID - 8710219
+SB  - IM
+SB  - X
+MH  - Adult
+MH  - Aged
+MH  - Denmark/epidemiology
+MH  - HIV Infections/*complications
+MH  - Humans
+MH  - Incidence
+MH  - Male
+MH  - Middle Aged
+MH  - Prospective Studies
+MH  - Prostatic Hyperplasia/*epidemiology
+MH  - Risk Assessment
+EDAT- 2015/11/07 06:00
+MHDA- 2016/08/25 06:00
+CRDT- 2015/11/07 06:00
+PHST- 2015/11/07 06:00 [entrez]
+PHST- 2015/11/07 06:00 [pubmed]
+PHST- 2016/08/25 06:00 [medline]
+AID - 10.1097/QAD.0000000000000804 [doi]
+AID - 00002030-201511130-00013 [pii]
+PST - ppublish
+SO  - AIDS. 2015 Nov;29(17):2315-22. doi: 10.1097/QAD.0000000000000804.
+
+PMID- 28657967
+OWN - NLM
+STAT- In-Data-Review
+LR  - 20170628
+IS  - 1473-5571 (Electronic)
+IS  - 0269-9370 (Linking)
+VI  - 31
+IP  - 11
+DP  - 2017 Jul 17
+TI  - Publication trends during the HIV pandemic: contributions by country.
+PG  - 1646-1647
+LID - 10.1097/QAD.0000000000001548 [doi]
+FAU - Ronit, Andreas
+AU  - Ronit A
+AD  - Department of Infectious Diseases 8632, Rigshospitalet, University of Copenhagen,
+      Copenhagen, Denmark. *Andreas Ronit and Magnus G. Ahlstrom contributed equally to
+      the idea, analyses, figures, and drafted the article.
+FAU - Ahlstrom, Magnus G
+AU  - Ahlstrom MG
+LA  - eng
+PT  - Journal Article
+PL  - England
+TA  - AIDS
+JT  - AIDS (London, England)
+JID - 8710219
+EDAT- 2017/06/29 06:00
+MHDA- 2017/06/29 06:00
+CRDT- 2017/06/29 06:00
+PHST- 2017/06/29 06:00 [entrez]
+PHST- 2017/06/29 06:00 [pubmed]
+PHST- 2017/06/29 06:00 [medline]
+AID - 10.1097/QAD.0000000000001548 [doi]
+AID - 00002030-201707170-00019 [pii]
+PST - ppublish
+SO  - AIDS. 2017 Jul 17;31(11):1646-1647. doi: 10.1097/QAD.0000000000001548.
+
+PMID- 25074406
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20150909
+LR  - 20141225
+IS  - 1464-3685 (Electronic)
+IS  - 0300-5771 (Linking)
+VI  - 43
+IP  - 6
+DP  - 2014 Dec
+TI  - Cohort profile update: the Danish HIV Cohort Study (DHCS).
+PG  - 1769-9e
+LID - 10.1093/ije/dyu153 [doi]
+AB  - The DHCS is a cohort of all HIV-infected individuals seen in one of the eight
+      Danish HIV centres after 31 December 1994. Here we update the 2009 cohort profile
+      emphasizing the development of the cohort. Every 12-24 months, DHCS is linked
+      with the Danish Civil Registration System (CRS) in order to extract an age- and
+      sex-matched comparison cohort from the general population, as well as cohorts of 
+      family members of the HIV-infected patients and of the comparison cohort. The
+      combined cohort is linked with CRS, the Danish Cancer Registry, the Danish
+      National Hospital Registry, the Danish Registry of Causes of Death, the Danish
+      National Prescription Registry, the Attainment Register and the Integrated
+      Database for Labour Market Research to get information on vital status,
+      migration, cancer, hospital contacts, causes of death, dispensed prescriptions,
+      education and employment. Using this design, rates of a range of outcomes have
+      been compared between HIV-infected patients and the comparison cohort, as well as
+      between families of these two cohorts in order to disaggregate the effects of HIV
+      infection and familial/environmental factors. Data can be shared with foreign
+      institutions following approval from the Danish Data Protection Agency. Potential
+      collaborators can contact the study director, Niels Obel (e-mail:
+      niels.obel@regionh.dk).
+CI  - (c) The Author 2014; all rights reserved. Published by Oxford University Press on
+      behalf of the International Epidemiological Association.
+FAU - Omland, Lars Haukali
+AU  - Omland LH
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark omland@dadlnet.dk.
+FAU - Ahlstrom, Magnus Glindvad
+AU  - Ahlstrom MG
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+FAU - Obel, Niels
+AU  - Obel N
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20140728
+PL  - England
+TA  - Int J Epidemiol
+JT  - International journal of epidemiology
+JID - 7802871
+SB  - IM
+MH  - Adolescent
+MH  - Adult
+MH  - Aged
+MH  - Antiretroviral Therapy, Highly Active
+MH  - Case-Control Studies
+MH  - Cognition Disorders/epidemiology
+MH  - Cohort Studies
+MH  - Coinfection
+MH  - Comorbidity
+MH  - Data Collection
+MH  - Denmark/epidemiology
+MH  - Diabetes Mellitus/epidemiology
+MH  - Female
+MH  - HIV Infections/drug therapy/*epidemiology/mortality
+MH  - Hepatitis B/epidemiology
+MH  - Hepatitis C/epidemiology
+MH  - Humans
+MH  - Kidney Diseases/epidemiology
+MH  - Male
+MH  - Middle Aged
+MH  - Myocardial Infarction/*epidemiology
+MH  - Neoplasms/*epidemiology
+MH  - Stroke/epidemiology
+MH  - Young Adult
+EDAT- 2014/07/31 06:00
+MHDA- 2015/09/10 06:00
+CRDT- 2014/07/31 06:00
+PHST- 2014/07/31 06:00 [entrez]
+PHST- 2014/07/31 06:00 [pubmed]
+PHST- 2015/09/10 06:00 [medline]
+AID - dyu153 [pii]
+AID - 10.1093/ije/dyu153 [doi]
+PST - ppublish
+SO  - Int J Epidemiol. 2014 Dec;43(6):1769-9e. doi: 10.1093/ije/dyu153. Epub 2014 Jul
+      28.
+
+PMID- 29984882
+OWN - NLM
+STAT- Publisher
+LR  - 20180709
+IS  - 1468-1293 (Electronic)
+IS  - 1464-2662 (Linking)
+DP  - 2018 Jul 9
+TI  - Association between smoking status assessed with plasma-cotinine and inflammatory
+      and endothelial biomarkers in HIV-positive and HIV-negative individuals.
+LID - 10.1111/hiv.12647 [doi]
+AB  - OBJECTIVES: Smoking is a major contributor to mortality and morbidity in
+      HIV-positive individuals. Our primary objective was to evaluate the association
+      between smoking status determined by plasma cotinine (P-cotinine) concentration
+      and inflammatory and endothelial biomarkers in HIV-positive versus HIV-negative
+      individuals. METHODS: We studied eight inflammatory/endothelial biomarkers
+      [high-sensitivity C-reactive protein (hsCRP), E-selectin, soluble vascular cell
+      adhesion molecule 1 (sVCAM-1), soluble intercellular adhesion molecule 1
+      (sICAM-1), matrix metallopeptidase 9 (MMP-9), myeloperoxidase (MPO), tissue type 
+      plasminogen activator inhibitor 1 (tPAI) and endothelin] in 105 HIV-positive
+      individuals and 105 HIV-negative individuals matched on age, sex and
+      self-reported smoking status. Smoking status was determined using P-cotinine (a
+      concentration > 14 ng/mL was defined as demonstrating exposure to smoke). We used
+      linear regression models to (1) examine the association between smoking status
+      and inflammatory/endothelial biomarkers in HIV-positive compared with
+      HIV-negative individuals, and (2) to determine whether there was evidence to
+      suggest that the impact of smoking status on the biomarkers differed between
+      HIV-positive and HIV-negative individuals. RESULTS: Of the eight biomarkers,
+      smokers had increased hsCRP, sICAM-1 and MMP-9 concentrations irrespective of HIV
+      status and increasing P-cotinine concentration was associated with increasing
+      hsCRP concentration. We found no interaction between smoking and HIV status. HIV 
+      infection was associated with increased hsCRP, E-selectin, sVCAM-1, sICAM-1 and
+      MMP-9 concentrations. Self-reported smoking status differed substantially from
+      smoking status assessed with P-cotinine. CONCLUSIONS: Several biomarkers were
+      associated with smoking status and HIV status. However, our data do not indicate 
+      that the effects of smoking on the biomarkers differ between HIV-positive and
+      HIV-negative individuals.
+CI  - (c) 2018 British HIV Association.
+FAU - Ahlstrom, M G
+AU  - Ahlstrom MG
+AUID- ORCID: http://orcid.org/0000-0001-5546-3959
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+FAU - Knudsen, A
+AU  - Knudsen A
+AD  - Department of Infectious Diseases, Copenhagen University Hospital, Hvidovre,
+      Denmark.
+FAU - Ullum, H
+AU  - Ullum H
+AD  - Department of Clinical Immunology, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+FAU - Gerstoft, J
+AU  - Gerstoft J
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+FAU - Kjaer, A
+AU  - Kjaer A
+AD  - Department of Nuclear Physiology, Copenhagen University Hospital, Rigshospitalet,
+      Copenhagen, Denmark.
+FAU - Lebech, A-M
+AU  - Lebech AM
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+FAU - Hasbak, P
+AU  - Hasbak P
+AD  - Department of Nuclear Physiology, Copenhagen University Hospital, Rigshospitalet,
+      Copenhagen, Denmark.
+FAU - Obel, N
+AU  - Obel N
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Copenhagen, Denmark.
+LA  - eng
+PT  - Journal Article
+DEP - 20180709
+PL  - England
+TA  - HIV Med
+JT  - HIV medicine
+JID - 100897392
+OTO - NOTNLM
+OT  - HIV
+OT  - Inflammation
+OT  - Smoking
+OT  - cotinine
+OT  - endothelial function
+EDAT- 2018/07/10 06:00
+MHDA- 2018/07/10 06:00
+CRDT- 2018/07/10 06:00
+PHST- 2018/05/23 00:00 [accepted]
+PHST- 2018/07/10 06:00 [entrez]
+PHST- 2018/07/10 06:00 [pubmed]
+PHST- 2018/07/10 06:00 [medline]
+AID - 10.1111/hiv.12647 [doi]
+PST - aheadofprint
+SO  - HIV Med. 2018 Jul 9. doi: 10.1111/hiv.12647.
+
+PMID- 29959775
+OWN - NLM
+STAT- Publisher
+LR  - 20180630
+IS  - 1365-2133 (Electronic)
+IS  - 0007-0963 (Linking)
+DP  - 2018 Jun 29
+TI  - Short contact with nickel causes allergic contact dermatitis: an experimental
+      study.
+LID - 10.1111/bjd.16935 [doi]
+AB  - BACKGROUND: Knowledge about the required duration of exposure for elicitation of 
+      allergic nickel dermatitis in nickel allergic individuals is limited. However, it
+      often has been proposed that short skin contact is safe. OBJECTIVE: To examine
+      whether repeated skin contact with nickel over short time periods (3 x 10
+      minutes) can elicit allergic nickel dermatitis. METHODS: Sixteen nickel allergic 
+      adults and 10 control subjects were exposed to, respectively, nickel and
+      aluminium containing discs on each volar forearm and on each earlobe for 3 x 10
+      minutes. One arm was pretreated for 24 hours with 0.5% sodium lauryl sulfate
+      (SLS) under occlusion before exposure. One aluminium- and one nickel exposure
+      site were clinically evaluated and blood flow was measured with laser Doppler
+      flowmetry at day 2 (D2) and D4. RESULTS: Ten of 16 (62.5%) nickel allergic
+      participants developed allergic nickel dermatitis on SLS pretreated arm skin and 
+      3/16 (18.8%) on normal skin on the earlobe. On the SLS pretreated arms of nickel 
+      allergic participants, blood flow increased significantly more on the nickel
+      exposed skin compared with the aluminium exposed skin on D2 and D4. No change in 
+      clinical reactivity or blood flow was found on normal forearm skin in nickel
+      allergic participants or on any skin in control subjects. CONCLUSIONS: This
+      experimental study showed that relatively short repeated skin contact (3 x 10
+      minutes) with metallic nickel elicits allergic nickel dermatitis in irritated
+      skin and at sites with previous dermatitis. The results support the restrictions 
+      in current nickel regulation. This article is protected by copyright. All rights 
+      reserved.
+CI  - This article is protected by copyright. All rights reserved.
+FAU - Ahlstrom, M G
+AU  - Ahlstrom MG
+AUID- ORCID: http://orcid.org/0000-0003-2092-7826
+AD  - National Allergy Research Centre, Department of Dermatology and Allergy, Herlev
+      and Gentofte Hospital, University of Copenhagen, DK, 2900, Hellerup, Denmark.
+FAU - Thyssen, J P
+AU  - Thyssen JP
+AUID- ORCID: http://orcid.org/0000-0003-3770-1743
+AD  - National Allergy Research Centre, Department of Dermatology and Allergy, Herlev
+      and Gentofte Hospital, University of Copenhagen, DK, 2900, Hellerup, Denmark.
+AD  - Department of Dermatology and Allergy, Herlev and Gentofte Hospital, University
+      of Copenhagen, DK, 2900, Hellerup, Denmark.
+FAU - Menne, T
+AU  - Menne T
+AD  - National Allergy Research Centre, Department of Dermatology and Allergy, Herlev
+      and Gentofte Hospital, University of Copenhagen, DK, 2900, Hellerup, Denmark.
+FAU - Midander, K
+AU  - Midander K
+AD  - Institute of Environmental Medicine, Karolinska Institutet, SE, 171 77,
+      Stockholm, Sweden.
+FAU - Julander, A
+AU  - Julander A
+AD  - Institute of Environmental Medicine, Karolinska Institutet, SE, 171 77,
+      Stockholm, Sweden.
+FAU - Liden, C
+AU  - Liden C
+AD  - Institute of Environmental Medicine, Karolinska Institutet, SE, 171 77,
+      Stockholm, Sweden.
+FAU - Johnsen, C R
+AU  - Johnsen CR
+AD  - Department of Dermatology and Allergy, Herlev and Gentofte Hospital, University
+      of Copenhagen, DK, 2900, Hellerup, Denmark.
+FAU - Johansen, J D
+AU  - Johansen JD
+AD  - National Allergy Research Centre, Department of Dermatology and Allergy, Herlev
+      and Gentofte Hospital, University of Copenhagen, DK, 2900, Hellerup, Denmark.
+LA  - eng
+PT  - Journal Article
+DEP - 20180629
+PL  - England
+TA  - Br J Dermatol
+JT  - The British journal of dermatology
+JID - 0004041
+EDAT- 2018/07/01 06:00
+MHDA- 2018/07/01 06:00
+CRDT- 2018/07/01 06:00
+PHST- 2018/07/01 06:00 [entrez]
+PHST- 2018/07/01 06:00 [pubmed]
+PHST- 2018/07/01 06:00 [medline]
+AID - 10.1111/bjd.16935 [doi]
+PST - aheadofprint
+SO  - Br J Dermatol. 2018 Jun 29. doi: 10.1111/bjd.16935.
+
+PMID- 29611268
+OWN - NLM
+STAT- In-Process
+LR  - 20180620
+IS  - 1600-0536 (Electronic)
+IS  - 0105-1873 (Linking)
+VI  - 78
+IP  - 5
+DP  - 2018 May
+TI  - Nickel and cobalt release from fidget spinners on the Danish market.
+PG  - 357-359
+LID - 10.1111/cod.12924 [doi]
+FAU - Ahlstrom, Malin G
+AU  - Ahlstrom MG
+AUID- ORCID: http://orcid.org/0000-0003-2092-7826
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900, Hellerup, Denmark.
+FAU - Thyssen, Jacob P
+AU  - Thyssen JP
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900, Hellerup, Denmark.
+FAU - Menne, Torkil
+AU  - Menne T
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900, Hellerup, Denmark.
+FAU - Jellesen, Morten S
+AU  - Jellesen MS
+AUID- ORCID: http://orcid.org/0000-0002-3253-0351
+AD  - Department of Mechanical Engineering, Technical University of Denmark, 2800, Kgs.
+      Lyngby, Denmark.
+FAU - Westermann, Peter J S
+AU  - Westermann PJS
+AD  - Department of Mechanical Engineering, Technical University of Denmark, 2800, Kgs.
+      Lyngby, Denmark.
+FAU - Johansen, Jeanne D
+AU  - Johansen JD
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900, Hellerup, Denmark.
+LA  - eng
+PT  - Journal Article
+PL  - England
+TA  - Contact Dermatitis
+JT  - Contact dermatitis
+JID - 7604950
+OTO - NOTNLM
+OT  - children
+OT  - cobalt
+OT  - contact allergy
+OT  - fidget spinners
+OT  - nickel
+EDAT- 2018/04/04 06:00
+MHDA- 2018/04/04 06:00
+CRDT- 2018/04/04 06:00
+PHST- 2017/10/05 00:00 [received]
+PHST- 2017/10/09 00:00 [accepted]
+PHST- 2018/04/04 06:00 [entrez]
+PHST- 2018/04/04 06:00 [pubmed]
+PHST- 2018/04/04 06:00 [medline]
+AID - 10.1111/cod.12924 [doi]
+PST - ppublish
+SO  - Contact Dermatitis. 2018 May;78(5):357-359. doi: 10.1111/cod.12924.
+
+PMID- 29588249
+OWN - NLM
+STAT- Publisher
+LR  - 20180328
+IS  - 1097-6787 (Electronic)
+IS  - 0190-9622 (Linking)
+DP  - 2018 Mar 24
+TI  - Risk of skin cancer in HIV-infected patients: a Danish nationwide cohort study.
+LID - S0190-9622(18)30475-4 [pii]
+LID - 10.1016/j.jaad.2018.03.024 [doi]
+AB  - BACKGROUND: The risk of skin cancer in HIV-infected patients has not been
+      extensively studied. OBJECTIVE: To determine the risk of skin cancer in
+      HIV-infected patients and compare it with the risk in the background population. 
+      METHODS: In a matched, nationwide population-based cohort study we compared the
+      risk of skin cancer in 4280 HIV-infected patients from the Danish HIV cohort
+      study with a background population cohort, according to the level of
+      immunosuppression and route of transmission. Primary outcomes were time to first 
+      basal cell carcinoma (BCC), squamous cell carcinoma (SCC), or malignant melanoma 
+      (MM). RESULTS: HIV-infected patients had an increased risk of BCC and SCC with
+      IRRs of 1.79 (95% CI 1.43 - 2.22) and 5.40 (95% CI 3.07 - 9.52), respectively,
+      compared with the background population. We observed no increased risk of MM. Low
+      nadir CD4 cell count was associated with an increased risk of SCC. The increased 
+      risk of BCC among HIV-infected patients was restricted to men who had sex with
+      men. LIMITATIONS: Observational design. Small number of patients with melanoma.
+      CONCLUSION: HIV-infected patients have an increased risk of BCC and SCC. Low
+      nadir, but not current, CD4 cell count as a marker of immunosuppression was
+      associated with an increased risk of SCC.
+CI  - Copyright (c) 2018. Published by Elsevier Inc.
+FAU - Omland, Silje Haukali
+AU  - Omland SH
+AD  - Department of Dermato-Venerology, Faculty of Health Sciences, Copenhagen
+      University Hospital, Bispebjerg Hospital, Denmark. Electronic address:
+      Silje.haukali.omland.01@regionh.dk.
+FAU - Ahlstrom, Magnus Glinvad
+AU  - Ahlstrom MG
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Denmark.
+FAU - Gerstoft, Jan
+AU  - Gerstoft J
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Denmark.
+FAU - Pedersen, Gitte
+AU  - Pedersen G
+AD  - Department of Infectious Diseases, Aalborg University Hospital, Aalborg, Denmark.
+FAU - Mohey, Rajesh
+AU  - Mohey R
+AD  - Department of Internal Medicine, The Regional Hospital West Jutland, Herning,
+      Denmark.
+FAU - Pedersen, Court
+AU  - Pedersen C
+AD  - Department of Infectious Diseases, Odense University Hospital, Odense, Denmark.
+FAU - Kronborg, Gitte
+AU  - Kronborg G
+AD  - Department of Infectious Diseases, Copenhagen University Hospital, Hvidovre
+      Hospital, Denmark.
+FAU - Larsen, Carsten Schade
+AU  - Larsen CS
+AD  - Department of Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark.
+FAU - Kvinesdal, Birgit
+AU  - Kvinesdal B
+AD  - Department of Infectious Diseases, Copenhagen University Hospital, Herlev
+      Hospital, Denmark.
+FAU - Gniadecki, Robert
+AU  - Gniadecki R
+AD  - Department of Dermato-Venerology, Faculty of Health Sciences, Copenhagen
+      University Hospital, Bispebjerg Hospital, Denmark.
+FAU - Obel, Niels
+AU  - Obel N
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Denmark.
+FAU - Omland, Lars Haukali
+AU  - Omland LH
+AD  - Department of Infectious Diseases, Copenhagen University Hospital,
+      Rigshospitalet, Denmark.
+LA  - eng
+PT  - Journal Article
+DEP - 20180324
+PL  - United States
+TA  - J Am Acad Dermatol
+JT  - Journal of the American Academy of Dermatology
+JID - 7907132
+OTO - NOTNLM
+OT  - Basal cell carcinoma
+OT  - Cohort study
+OT  - HIV-infection
+OT  - Malignant melanoma
+OT  - Skin cancer
+OT  - Squamous cell carcinoma
+EDAT- 2018/03/29 06:00
+MHDA- 2018/03/29 06:00
+CRDT- 2018/03/29 06:00
+PHST- 2017/08/23 00:00 [received]
+PHST- 2018/03/14 00:00 [revised]
+PHST- 2018/03/18 00:00 [accepted]
+PHST- 2018/03/29 06:00 [entrez]
+PHST- 2018/03/29 06:00 [pubmed]
+PHST- 2018/03/29 06:00 [medline]
+AID - S0190-9622(18)30475-4 [pii]
+AID - 10.1016/j.jaad.2018.03.024 [doi]
+PST - aheadofprint
+SO  - J Am Acad Dermatol. 2018 Mar 24. pii: S0190-9622(18)30475-4. doi:
+      10.1016/j.jaad.2018.03.024.
+
+PMID- 29316016
+OWN - NLM
+STAT- In-Process
+LR  - 20180420
+IS  - 1524-475X (Electronic)
+IS  - 1067-1927 (Linking)
+VI  - 25
+IP  - 6
+DP  - 2017 Nov
+TI  - Noninvasive measurement of reepithelialization and microvascularity of
+      suction-blister wounds with benchmarking to histology.
+PG  - 984-993
+LID - 10.1111/wrr.12605 [doi]
+AB  - We explored use of the suction-blister wound model in the assessment of not only 
+      epidermal regeneration but also pain, the microvascular response and
+      bacteriology. The effects of topical zinc sulfate were studied to articulate the 
+      methodologies in this double-blind trial. One epidermal suction blister (10 mm)
+      was induced on each buttock in 30 healthy volunteers (15 females:15 males) and
+      deroofed on day 0. The wounds were randomized to daily treatment with 1.4% zinc
+      sulfate shower gel (n = 20), placebo (n = 20) or control (n = 20). Digital
+      photography coupled with planimetry, transepidermal water loss (TEWL) measurement
+      and optical coherence tomography (OCT) was benchmarked to the gold standard of
+      histology of 60 full-thickness wound biopsies on day 4. Pain increased after
+      application of the shower gels. Microvessel density, determined from OCT images, 
+      increased from day 0 to day 2 in the three groups but increased more with the
+      placebo than with the zinc shower gel (p = 0.003) or the control treatment (p =
+      0.002) and correlated (rS = 0.313, p = 0.015) with the inflammatory response on
+      day 4, as determined by histology. Coagulase-negative staphylococci were more
+      common in wounds compared with skin (p = 0.002) and was reduced (p = 0.030) with 
+      zinc sulfate treatment. Planimetric analysis of digital wound images was not
+      biased (p = 0.234) compared with histology, and TEWL measurements showed no
+      correlation (rS = 0.052, p = 0.691) with epithelialization. Neoepidermal
+      formation, determined by histology, did not differ (p = 0.290) among the groups. 
+      Zinc sulfate reduced (p = 0.031) the release of lactate dehydrogenase from
+      cultured gel-treated keratinocytes isolated from the blister roofs. Therefore,
+      combination of the standardized suction-blister wound model with noninvasive
+      planimetry and OCT is a useful tool for assessing wound therapies. Zinc sulfate
+      transiently dampened inflammation and reduced bacterial growth.
+CI  - (c) 2018 by the Wound Healing Society.
+FAU - Larsen, Heidi F
+AU  - Larsen HF
+AD  - Department of Dermatology and Copenhagen Wound Healing Center, Bispebjerg
+      Hospital, University of Copenhagen, Copenhagen, Denmark.
+FAU - Ahlstrom, Malin G
+AU  - Ahlstrom MG
+AD  - Department of Dermatology and Copenhagen Wound Healing Center, Bispebjerg
+      Hospital, University of Copenhagen, Copenhagen, Denmark.
+FAU - Gjerdrum, Lise M R
+AU  - Gjerdrum LMR
+AD  - Department of Pathology, Zealand University Hospital, Roskilde, Denmark.
+FAU - Mogensen, Mette
+AU  - Mogensen M
+AD  - Department of Dermatology and Copenhagen Wound Healing Center, Bispebjerg
+      Hospital, University of Copenhagen, Copenhagen, Denmark.
+FAU - Ghathian, Khaled
+AU  - Ghathian K
+AD  - Department of Clinical Microbiology, Hvidovre Hospital, University of Copenhagen,
+      Copenhagen, Denmark.
+FAU - Calum, Henrik
+AU  - Calum H
+AD  - Department of Clinical Microbiology, Hvidovre Hospital, University of Copenhagen,
+      Copenhagen, Denmark.
+FAU - Sorensen, Anne L
+AU  - Sorensen AL
+AD  - Section of Biostatistics, Department of Public Health, University of Copenhagen, 
+      Copenhagen, Denmark.
+FAU - Forman, Julie L
+AU  - Forman JL
+AD  - Section of Biostatistics, Department of Public Health, University of Copenhagen, 
+      Copenhagen, Denmark.
+FAU - Vandeven, Mark
+AU  - Vandeven M
+AD  - Colgate-Palmolive, Piscataway, New Jersey.
+FAU - Holerca, Marian N
+AU  - Holerca MN
+AD  - Colgate-Palmolive, Piscataway, New Jersey.
+FAU - Du-Thumm, Laurence
+AU  - Du-Thumm L
+AD  - Colgate-Palmolive, Piscataway, New Jersey.
+FAU - Jorgensen, Lars N
+AU  - Jorgensen LN
+AD  - Digestive Disease Center, Bispebjerg Hospital, University of Copenhagen,
+      Copenhagen, Denmark.
+FAU - Agren, Magnus S
+AU  - Agren MS
+AUID- ORCID: 0000-0002-2263-0826
+AD  - Department of Dermatology and Copenhagen Wound Healing Center, Bispebjerg
+      Hospital, University of Copenhagen, Copenhagen, Denmark.
+AD  - Digestive Disease Center, Bispebjerg Hospital, University of Copenhagen,
+      Copenhagen, Denmark.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20180216
+PL  - United States
+TA  - Wound Repair Regen
+JT  - Wound repair and regeneration : official publication of the Wound Healing Society
+      [and] the European Tissue Repair Society
+JID - 9310939
+EDAT- 2018/01/10 06:00
+MHDA- 2018/01/10 06:00
+CRDT- 2018/01/10 06:00
+PHST- 2017/03/30 00:00 [received]
+PHST- 2017/11/13 00:00 [accepted]
+PHST- 2018/01/10 06:00 [pubmed]
+PHST- 2018/01/10 06:00 [medline]
+PHST- 2018/01/10 06:00 [entrez]
+AID - 10.1111/wrr.12605 [doi]
+PST - ppublish
+SO  - Wound Repair Regen. 2017 Nov;25(6):984-993. doi: 10.1111/wrr.12605. Epub 2018 Feb
+      16.
+
+PMID- 28730624
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180508
+LR  - 20180508
+IS  - 1600-0536 (Electronic)
+IS  - 0105-1873 (Linking)
+VI  - 77
+IP  - 4
+DP  - 2017 Oct
+TI  - Prevalence of nickel allergy in Europe following the EU Nickel Directive - a
+      review.
+PG  - 193-200
+LID - 10.1111/cod.12846 [doi]
+AB  - Nickel contact allergy remains a problem in EU countries, despite the EU Nickel
+      Directive. To study the prevalence of nickel allergy in EU countries following
+      the implementation of the EU Nickel Directive, we performed a systematic search
+      in PubMed for studies that examined the prevalence of nickel allergy in EU
+      countries published during 2005-2016. We identified 46 studies: 10 in the general
+      population and 36 in patch tested dermatitis patients. A significantly lower
+      prevalence of nickel allergy after than before the implementation of the EU
+      Nickel Directive was found in women aged 18-35 years (11.4% versus 19.8%) (p =
+      0.02), in female dermatitis patients aged </=17 years (14.3% versus 29.2%) (p <
+      0.0001), and in dermatitis patients aged 18-30 years (women: 20.2% versus 36.6%) 
+      (p < 0.0001) (men: 4.9% versus 6.6%) (p < 0.0001). Overall, the prevalence was
+      higher in southern than in northern EU countries, and generally remained high,
+      affecting 8-18% of the general population. A consistent pattern of decreasing
+      prevalence of nickel allergy in some EU countries was observed, although the
+      prevalence among young women remains high. Steps should be taken for better
+      prevention of nickel allergy in EU countries.
+CI  - (c) 2017 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd.
+FAU - Ahlstrom, Malin G
+AU  - Ahlstrom MG
+AUID- ORCID: http://orcid.org/0000-0003-2092-7826
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900, Hellerup, Denmark.
+FAU - Thyssen, Jacob P
+AU  - Thyssen JP
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900, Hellerup, Denmark.
+FAU - Menne, Torkil
+AU  - Menne T
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900, Hellerup, Denmark.
+FAU - Johansen, Jeanne D
+AU  - Johansen JD
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900, Hellerup, Denmark.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20170721
+PL  - England
+TA  - Contact Dermatitis
+JT  - Contact dermatitis
+JID - 7604950
+RN  - 7OV03QG267 (Nickel)
+SB  - IM
+MH  - Adult
+MH  - Dermatitis, Allergic Contact/*epidemiology
+MH  - Europe/epidemiology
+MH  - Female
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Nickel/*toxicity
+MH  - Patch Tests
+MH  - Prevalence
+MH  - Young Adult
+OTO - NOTNLM
+OT  - Nickel Directive
+OT  - REACH
+OT  - allergic nickel dermatitis
+OT  - contact allergy
+OT  - general population
+OT  - nickel
+OT  - nickel regulation
+OT  - prevalence
+EDAT- 2017/07/22 06:00
+MHDA- 2018/05/09 06:00
+CRDT- 2017/07/22 06:00
+PHST- 2017/02/23 00:00 [received]
+PHST- 2017/05/17 00:00 [revised]
+PHST- 2017/05/18 00:00 [accepted]
+PHST- 2017/07/22 06:00 [pubmed]
+PHST- 2018/05/09 06:00 [medline]
+PHST- 2017/07/22 06:00 [entrez]
+AID - 10.1111/cod.12846 [doi]
+PST - ppublish
+SO  - Contact Dermatitis. 2017 Oct;77(4):193-200. doi: 10.1111/cod.12846. Epub 2017 Jul
+      21.
+
+PMID- 28685861
+OWN - NLM
+STAT- In-Process
+LR  - 20180109
+IS  - 1600-0846 (Electronic)
+IS  - 0909-752X (Linking)
+VI  - 24
+IP  - 1
+DP  - 2018 Feb
+TI  - Suction blister lesions and epithelialization monitored by optical coherence
+      tomography.
+PG  - 65-72
+LID - 10.1111/srt.12391 [doi]
+AB  - BACKGROUND/PURPOSE: Our objective was to assess epithelialization of suction
+      blister lesions by optical coherence tomography (OCT) and benchmark it to
+      histology using epidermal thickness (ET) as the primary outcome. METHODS:
+      Thirty-two healthy volunteers were recruited to Study 1 and 2. One 10-mm suction 
+      blister was raised on each buttock, and the blister roof was excised. Lesions
+      were covered with moisture-retaining dressing. In Study 1, the lesions were
+      OCT-scanned on day 0 (D0), D2 and D4 and excised for histological examination. In
+      Study 2, the progress of epithelialization and skin barrier function were
+      monitored to D14. RESULTS: ET increased from D0 to D2 by 46 mum (P<.001) and from
+      D2 to D4 by 19 mum (P=.004). Compared with histology, OCT overestimated the
+      presence of the epithelium (P<.0001) and ET on D4. Reliable measurements were
+      obtained when the ET of the lesions reached the ET of the normal epidermis from
+      D5-D7 and onwards. The ET development was reflected in decreased transepidermal
+      water loss. CONCLUSION: We found that the OCT technique was poorly discriminative
+      with respect to the neoepithelium and the moist lesion surface material in the
+      early postinjury period. In the later stages, OCT seemed valuable for estimating 
+      the advancement of epithelialization.
+CI  - (c) 2017 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd.
+FAU - Ahlstrom, M G
+AU  - Ahlstrom MG
+AD  - Department of Dermatology and Copenhagen Wound Healing Center, Bispebjerg
+      Hospital, University of Copenhagen, Copenhagen, Denmark.
+FAU - Gjerdrum, L M R
+AU  - Gjerdrum LMR
+AD  - Department of Pathology, Zealand University Hospital, Roskilde, Denmark.
+FAU - Larsen, H F
+AU  - Larsen HF
+AD  - Department of Dermatology and Copenhagen Wound Healing Center, Bispebjerg
+      Hospital, University of Copenhagen, Copenhagen, Denmark.
+FAU - Fuchs, C
+AU  - Fuchs C
+AUID- ORCID: http://orcid.org/0000-0003-3329-2516
+AD  - Department of Dermatology and Copenhagen Wound Healing Center, Bispebjerg
+      Hospital, University of Copenhagen, Copenhagen, Denmark.
+FAU - Sorensen, A L
+AU  - Sorensen AL
+AD  - Section of Biostatistics, Department of Public Health, University of Copenhagen, 
+      Copenhagen, Denmark.
+FAU - Forman, J L
+AU  - Forman JL
+AD  - Section of Biostatistics, Department of Public Health, University of Copenhagen, 
+      Copenhagen, Denmark.
+FAU - Agren, M S
+AU  - Agren MS
+AD  - Department of Dermatology and Copenhagen Wound Healing Center, Bispebjerg
+      Hospital, University of Copenhagen, Copenhagen, Denmark.
+AD  - Digestive Disease Center, Bispebjerg Hospital, University of Copenhagen,
+      Copenhagen, Denmark.
+FAU - Mogensen, M
+AU  - Mogensen M
+AD  - Department of Dermatology and Copenhagen Wound Healing Center, Bispebjerg
+      Hospital, University of Copenhagen, Copenhagen, Denmark.
+LA  - eng
+PT  - Journal Article
+DEP - 20170707
+PL  - England
+TA  - Skin Res Technol
+JT  - Skin research and technology : official journal of International Society for
+      Bioengineering and the Skin (ISBS) [and] International Society for Digital
+      Imaging of Skin (ISDIS) [and] International Society for Skin Imaging (ISSI)
+JID - 9504453
+OTO - NOTNLM
+OT  - epidermal thickness measurement
+OT  - optical imaging
+OT  - suction blisters
+OT  - wound healing
+EDAT- 2017/07/08 06:00
+MHDA- 2017/07/08 06:00
+CRDT- 2017/07/08 06:00
+PHST- 2017/06/02 00:00 [accepted]
+PHST- 2017/07/08 06:00 [pubmed]
+PHST- 2017/07/08 06:00 [medline]
+PHST- 2017/07/08 06:00 [entrez]
+AID - 10.1111/srt.12391 [doi]
+PST - ppublish
+SO  - Skin Res Technol. 2018 Feb;24(1):65-72. doi: 10.1111/srt.12391. Epub 2017 Jul 7.
+
+PMID- 28681065
+OWN - NLM
+STAT- In-Process
+LR  - 20180129
+IS  - 1651-2057 (Electronic)
+IS  - 0001-5555 (Linking)
+VI  - 97
+IP  - 10
+DP  - 2017 Nov 15
+TI  - Consumer Behaviour Among Nickel-allergic Patients.
+PG  - 1247-1248
+LID - 10.2340/00015555-2751 [doi]
+FAU - Ahlstrom, Malin G
+AU  - Ahlstrom MG
+AD  - National Allergy Research Centre Department of Dermatology and Allergy, Herlev
+      and Gentofte Hospital, University of Copenhagen, DK-2900 Hellerup, Denmark.
+      malin.glindvad.ahlstroem.01@regionh.dk.
+FAU - Thyssen, Jacob P
+AU  - Thyssen JP
+FAU - Menne, Torkil
+AU  - Menne T
+FAU - Johansen, Jeanne D
+AU  - Johansen JD
+LA  - eng
+PT  - Journal Article
+PL  - Sweden
+TA  - Acta Derm Venereol
+JT  - Acta dermato-venereologica
+JID - 0370310
+EDAT- 2017/07/07 06:00
+MHDA- 2017/07/07 06:00
+CRDT- 2017/07/07 06:00
+PHST- 2017/07/07 06:00 [pubmed]
+PHST- 2017/07/07 06:00 [medline]
+PHST- 2017/07/07 06:00 [entrez]
+AID - 10.2340/00015555-2751 [doi]
+PST - ppublish
+SO  - Acta Derm Venereol. 2017 Nov 15;97(10):1247-1248. doi: 10.2340/00015555-2751.
+
+PMID- 28497631
+OWN - NLM
+STAT- In-Process
+LR  - 20180315
+IS  - 1600-0536 (Electronic)
+IS  - 0105-1873 (Linking)
+VI  - 76
+IP  - 6
+DP  - 2017 Jun
+TI  - The European nickel regulation and changes since its introduction.
+PG  - 382-384
+LID - 10.1111/cod.12775 [doi]
+FAU - Ahlstrom, Malin G
+AU  - Ahlstrom MG
+AUID- ORCID: http://orcid.org/0000-0003-2092-7826
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900 Hellerup, Denmark.
+FAU - Menne, Torkil
+AU  - Menne T
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900 Hellerup, Denmark.
+FAU - Thyssen, Jacob P
+AU  - Thyssen JP
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900 Hellerup, Denmark.
+FAU - Johansen, Jeanne D
+AU  - Johansen JD
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900 Hellerup, Denmark.
+LA  - eng
+PT  - Letter
+PL  - England
+TA  - Contact Dermatitis
+JT  - Contact dermatitis
+JID - 7604950
+EIN - Contact Dermatitis. 2017 Jul;77(1):64-65. PMID: 28612440
+EDAT- 2017/05/13 06:00
+MHDA- 2017/05/13 06:00
+CRDT- 2017/05/13 06:00
+PHST- 2017/01/10 00:00 [received]
+PHST- 2017/01/12 00:00 [accepted]
+PHST- 2017/05/13 06:00 [entrez]
+PHST- 2017/05/13 06:00 [pubmed]
+PHST- 2017/05/13 06:00 [medline]
+AID - 10.1111/cod.12775 [doi]
+PST - ppublish
+SO  - Contact Dermatitis. 2017 Jun;76(6):382-384. doi: 10.1111/cod.12775.
+
+PMID- 28386993
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180307
+LR  - 20180307
+IS  - 1600-0536 (Electronic)
+IS  - 0105-1873 (Linking)
+VI  - 76
+IP  - 6
+DP  - 2017 Jun
+TI  - Nickel allergy in a Danish population 25 years after the first nickel regulation.
+PG  - 325-332
+LID - 10.1111/cod.12782 [doi]
+AB  - BACKGROUND: Nickel in metallic items has been regulated in Denmark since 1990;
+      however, 10% of young Danish women are still sensitized to nickel. There is a
+      need for continuous surveillance of the effect of regulation. OBJECTIVES: To
+      identify current self-reported metallic exposures leading to dermatitis in
+      nickel-allergic patients, and the minimum contact time needed for dermatitis to
+      occur. METHODS: A questionnaire was sent to all patients who reacted positively
+      to nickel sulfate 5% pet. within the last 5 years at the Department of
+      Dermatology and Allergy, Gentofte Hospital. RESULTS: The response rate was 63.2%.
+      Earrings were the foremost cause of dermatitis after the EU Nickel Directive had 
+      been implemented, followed by other jewellery, buttons on clothing, belt buckles,
+      and wrist watches. Dermatitis reactions within 10 min of contact were reported by
+      21.4% of patients, and dermatitis reactions within 30 min of contact were
+      reported by 30.7% of patients. CONCLUSIONS: Nickel exposures that led to the
+      implementation of a nickel regulation seem to persist. The durations of contact
+      with metallic items to fall under the current REACH regulation of nickel
+      correspond well with the results of this study.
+CI  - (c) 2017 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd.
+FAU - Ahlstrom, Malin G
+AU  - Ahlstrom MG
+AUID- ORCID: http://orcid.org/0000-0003-2092-7826
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900, Hellerup, Denmark.
+FAU - Menne, Torkil
+AU  - Menne T
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900, Hellerup, Denmark.
+FAU - Thyssen, Jacob P
+AU  - Thyssen JP
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900, Hellerup, Denmark.
+FAU - Johansen, Jeanne D
+AU  - Johansen JD
+AD  - Department of Dermatology and Allergy, National Allergy Research Centre, Herlev
+      and Gentofte Hospital, University of Copenhagen, 2900, Hellerup, Denmark.
+LA  - eng
+PT  - Journal Article
+DEP - 20170407
+PL  - England
+TA  - Contact Dermatitis
+JT  - Contact dermatitis
+JID - 7604950
+RN  - 7OV03QG267 (Nickel)
+SB  - IM
+MH  - Adolescent
+MH  - Adult
+MH  - Body Piercing/adverse effects
+MH  - Child
+MH  - Clothing/adverse effects
+MH  - Consumer Product Safety/*legislation & jurisprudence
+MH  - Denmark/epidemiology
+MH  - Dermatitis, Allergic Contact/*epidemiology/etiology/prevention & control
+MH  - Female
+MH  - Humans
+MH  - Jewelry/adverse effects
+MH  - Male
+MH  - Middle Aged
+MH  - Nickel/*adverse effects
+MH  - Self Report
+MH  - Time Factors
+MH  - Young Adult
+OTO - NOTNLM
+OT  - EU directive
+OT  - allergic nickel dermatitis
+OT  - metallic items
+OT  - nickel
+OT  - prolonged direct contact
+EDAT- 2017/04/08 06:00
+MHDA- 2018/03/08 06:00
+CRDT- 2017/04/08 06:00
+PHST- 2016/11/10 00:00 [received]
+PHST- 2017/01/18 00:00 [revised]
+PHST- 2017/01/18 00:00 [accepted]
+PHST- 2017/04/08 06:00 [pubmed]
+PHST- 2018/03/08 06:00 [medline]
+PHST- 2017/04/08 06:00 [entrez]
+AID - 10.1111/cod.12782 [doi]
+PST - ppublish
+SO  - Contact Dermatitis. 2017 Jun;76(6):325-332. doi: 10.1111/cod.12782. Epub 2017 Apr
+      7.
+
+PMID- 27873334
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20170926
+LR  - 20170926
+IS  - 1600-0536 (Electronic)
+IS  - 0105-1873 (Linking)
+VI  - 76
+IP  - 4
+DP  - 2017 Apr
+TI  - Rapid allergen-induced interleukin-17 and interferon-gamma secretion by
+      skin-resident memory CD8(+) T cells.
+PG  - 218-227
+LID - 10.1111/cod.12715 [doi]
+AB  - BACKGROUND: Skin-resident memory T (TRM ) cells are associated with immunological
+      memory in the skin. Whether immunological memory responses to allergens in the
+      skin are solely localized to previously allergen-exposed sites or are present
+      globally in the skin is not clear. Furthermore, the mechanisms whereby TRM cells 
+      induce rapid recall responses need further investigation. OBJECTIVES: To study
+      whether contact allergens induce local and/or global memory, and to determine the
+      mechanisms involved in memory responses in the skin. METHODS: To address these
+      questions, we analysed responses to contact allergens in mice and humans
+      sensitized to 2,4-dinitrofluorobenzene and nickel, respectively. RESULTS:
+      Challenge responses in both mice and humans were dramatically increased at sites 
+      previously exposed to allergens as compared with previously unexposed sites.
+      Importantly, the magnitude of the challenge response correlated with the
+      epidermal accumulation of interleukin (IL)-17A-producing and interferon
+      (IFN)-gamma-producing TRM cells. Moreover, IL-17A and IFN-gamma enhanced
+      allergen-induced IL-1beta production in keratinocytes. CONCLUSIONS: We show that 
+      sensitization with contact allergens induces a strong, long-lasting local memory 
+      and a weaker, temporary global immunological memory response to the allergen that
+      is mediated by IL-17A-producing and IFN-gamma-producing CD8(+) TRM cells.
+CI  - (c) 2016 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd.
+FAU - Schmidt, Jonas D
+AU  - Schmidt JD
+AD  - Department of Immunology and Microbiology, Faculty of Health and Medical
+      Sciences, University of Copenhagen, 2200 Copenhagen, Denmark.
+AD  - Department of Dermato-Allergology, National Allergy Research Centre, Copenhagen
+      University Hospital Gentofte, 2900 Hellerup, Denmark.
+FAU - Ahlstrom, Malin G
+AU  - Ahlstrom MG
+AD  - Department of Dermato-Allergology, National Allergy Research Centre, Copenhagen
+      University Hospital Gentofte, 2900 Hellerup, Denmark.
+FAU - Johansen, Jeanne D
+AU  - Johansen JD
+AD  - Department of Dermato-Allergology, National Allergy Research Centre, Copenhagen
+      University Hospital Gentofte, 2900 Hellerup, Denmark.
+FAU - Dyring-Andersen, Beatrice
+AU  - Dyring-Andersen B
+AD  - Department of Immunology and Microbiology, Faculty of Health and Medical
+      Sciences, University of Copenhagen, 2200 Copenhagen, Denmark.
+AD  - Department of Dermato-Allergology, National Allergy Research Centre, Copenhagen
+      University Hospital Gentofte, 2900 Hellerup, Denmark.
+FAU - Agerbeck, Christina
+AU  - Agerbeck C
+AD  - Department of Immunology and Microbiology, Faculty of Health and Medical
+      Sciences, University of Copenhagen, 2200 Copenhagen, Denmark.
+FAU - Nielsen, Morten M
+AU  - Nielsen MM
+AD  - Department of Immunology and Microbiology, Faculty of Health and Medical
+      Sciences, University of Copenhagen, 2200 Copenhagen, Denmark.
+FAU - Poulsen, Steen S
+AU  - Poulsen SS
+AD  - Department of Biomedical Sciences, Faculty of Health and Medical Sciences,
+      University of Copenhagen, 2200 Copenhagen, Denmark.
+FAU - Woetmann, Anders
+AU  - Woetmann A
+AD  - Department of Immunology and Microbiology, Faculty of Health and Medical
+      Sciences, University of Copenhagen, 2200 Copenhagen, Denmark.
+FAU - Odum, Niels
+AU  - Odum N
+AD  - Department of Immunology and Microbiology, Faculty of Health and Medical
+      Sciences, University of Copenhagen, 2200 Copenhagen, Denmark.
+FAU - Thomsen, Allan R
+AU  - Thomsen AR
+AD  - Department of Immunology and Microbiology, Faculty of Health and Medical
+      Sciences, University of Copenhagen, 2200 Copenhagen, Denmark.
+FAU - Geisler, Carsten
+AU  - Geisler C
+AD  - Department of Immunology and Microbiology, Faculty of Health and Medical
+      Sciences, University of Copenhagen, 2200 Copenhagen, Denmark.
+FAU - Bonefeld, Charlotte M
+AU  - Bonefeld CM
+AD  - Department of Immunology and Microbiology, Faculty of Health and Medical
+      Sciences, University of Copenhagen, 2200 Copenhagen, Denmark.
+LA  - eng
+PT  - Journal Article
+DEP - 20161122
+PL  - England
+TA  - Contact Dermatitis
+JT  - Contact dermatitis
+JID - 7604950
+RN  - 0 (IL17A protein, human)
+RN  - 0 (Interleukin-17)
+RN  - 82115-62-6 (Interferon-gamma)
+SB  - IM
+MH  - Animals
+MH  - CD8-Positive T-Lymphocytes/*immunology
+MH  - Dermatitis, Contact/*immunology
+MH  - Humans
+MH  - *Immunologic Memory
+MH  - Interferon-gamma/*biosynthesis
+MH  - Interleukin-17/*biosynthesis
+MH  - Mice
+MH  - Skin/*immunology
+OTO - NOTNLM
+OT  - IFN-gamma
+OT  - IL-17A
+OT  - IL-1beta
+OT  - allergic contact dermatitis
+OT  - local memory
+OT  - tissue-resident T cells
+EDAT- 2016/11/23 06:00
+MHDA- 2017/09/28 06:00
+CRDT- 2016/11/23 06:00
+PHST- 2016/06/29 00:00 [received]
+PHST- 2016/08/29 00:00 [revised]
+PHST- 2016/09/21 00:00 [accepted]
+PHST- 2016/11/23 06:00 [pubmed]
+PHST- 2017/09/28 06:00 [medline]
+PHST- 2016/11/23 06:00 [entrez]
+AID - 10.1111/cod.12715 [doi]
+PST - ppublish
+SO  - Contact Dermatitis. 2017 Apr;76(4):218-227. doi: 10.1111/cod.12715. Epub 2016 Nov
+      22.
+
+PMID- 26758406
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20171102
+LR  - 20171102
+IS  - 2047-2412 (Electronic)
+IS  - 2047-2404 (Linking)
+VI  - 17
+IP  - 8
+DP  - 2016 Aug
+TI  - Cardiac remodelling and function with primary mitral valve insufficiency studied 
+      by magnetic resonance imaging.
+PG  - 863-70
+LID - 10.1093/ehjci/jev321 [doi]
+AB  - AIMS: Evaluation of patients with primary mitral valve insufficiency (MI) is best
+      supported by quantitative measures. Cardiovascular magnetic resonance imaging
+      (CMR) offers flow and cardiac chamber volume quantification. We studied cardiac
+      remodelling with CMR to determine MI regurgitation volumes (MIVol) related to
+      severe MI. METHODS AND RESULTS: In total, 24, 20, and 28 patients determined to
+      have mild, moderate, and severe primary MI, respectively, were studied. Combining
+      cine stacks with phase-contrast velocity mapping across the ascending aorta,
+      CMR-determined MIVol was reproducibly obtained as the difference between left
+      ventricular (LV) stroke volume and aortic forward flow (Aoflow). With increasing 
+      MI severity, MIVol, left heart volumes, and pulmonary venous diameters increased 
+      (P < 0.01). Severe MI with LV end-systolic diameter of 40 mm was signified by
+      MIVol >40 mL, MI regurgitant fraction >0.30, LV end-diastolic volume (LVEDV(i))
+      >108 mL m(-2), and a total left heart volume >188 mL m(-2) with dilated pulmonary
+      veins and a LVEDV/right ventricular EDV ratio >1.2. In severe MI, LV ejection
+      fraction was unaffected, but the Aoflow and the peak ejection rate indexed to
+      LVEDV were lowered (P < 0.05). In surgical patients, the MIVol correlated to the 
+      decrease in LV dimension after valve surgery (P < 0.02). CONCLUSION: CMR provides
+      a reproducible quantitative technique for evaluation of MI, as MIVol and cardiac 
+      chamber volumes can be held against diagnostic cut-off values. The Aoflow and
+      peak ejection rate indexed to LVEDV may reveal early LV systolic dysfunction in
+      patients with severe MI. Severe MI is related to lower MI regurgitation volume
+      and fraction than previously believed.
+CI  - Published on behalf of the European Society of Cardiology. All rights reserved.
+      (c) The Author 2016. For permissions please email: journals.permissions@oup.com.
+FAU - Aplin, Mark
+AU  - Aplin M
+AD  - Department of Cardiology, Copenhagen University Hospitals of Rigshospitalet,
+      Copenhagen, Denmark.
+FAU - Kyhl, Kasper
+AU  - Kyhl K
+AD  - Department of Cardiology, Copenhagen University Hospitals of Rigshospitalet,
+      Copenhagen, Denmark.
+FAU - Bjerre, Jenny
+AU  - Bjerre J
+AD  - Department of Cardiology, Copenhagen University Hospitals of Rigshospitalet,
+      Copenhagen, Denmark.
+FAU - Ihlemann, Nikolaj
+AU  - Ihlemann N
+AD  - Department of Cardiology, Copenhagen University Hospitals of Rigshospitalet,
+      Copenhagen, Denmark.
+FAU - Greenwood, John P
+AU  - Greenwood JP
+AD  - Leeds Institute of Cardiovascular and Metabolic Medicine, Leeds University, Leed,
+      UK.
+FAU - Plein, Sven
+AU  - Plein S
+AD  - Leeds Institute of Cardiovascular and Metabolic Medicine, Leeds University, Leed,
+      UK.
+FAU - Uddin, Akhlaque
+AU  - Uddin A
+AD  - Leeds Institute of Cardiovascular and Metabolic Medicine, Leeds University, Leed,
+      UK.
+FAU - Tonder, Niels
+AU  - Tonder N
+AD  - Department of Cardiology, Copenhagen University Hospitals of Hillerod,
+      Copenhagen, Denmark.
+FAU - Host, Nis Baun
+AU  - Host NB
+AD  - Department of Cardiology, Copenhagen University Hospitals of Bispebjerg,
+      Copenhagen, Denmark.
+FAU - Ahlstrom, Malin Glindvad
+AU  - Ahlstrom MG
+AD  - Department of Cardiology, Copenhagen University Hospitals of Rigshospitalet,
+      Copenhagen, Denmark.
+FAU - Hove, Jens
+AU  - Hove J
+AD  - Department of Cardiology, Copenhagen University Hospitals of Hvidovre,
+      Copenhagen, Denmark.
+FAU - Hassager, Christian
+AU  - Hassager C
+AD  - Department of Cardiology, Copenhagen University Hospitals of Rigshospitalet,
+      Copenhagen, Denmark.
+FAU - Iversen, Kasper
+AU  - Iversen K
+AD  - Department of Cardiology, Copenhagen University Hospitals of Herlev, Herlev
+      Ringvej 75, Copenhagen, Denmark.
+FAU - Vejlstrup, Niels G
+AU  - Vejlstrup NG
+AD  - Department of Cardiology, Copenhagen University Hospitals of Rigshospitalet,
+      Copenhagen, Denmark.
+FAU - Lav Madsen, Per
+AU  - Lav Madsen P
+AD  - Department of Cardiology, Copenhagen University Hospitals of Herlev, Herlev
+      Ringvej 75, Copenhagen, Denmark lav.madsen@gmail.com.
+LA  - eng
+PT  - Comparative Study
+PT  - Journal Article
+PT  - Multicenter Study
+DEP - 20160112
+PL  - England
+TA  - Eur Heart J Cardiovasc Imaging
+JT  - European heart journal cardiovascular Imaging
+JID - 101573788
+SB  - IM
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Cohort Studies
+MH  - Denmark
+MH  - Echocardiography/methods
+MH  - Evaluation Studies as Topic
+MH  - Female
+MH  - Heart Valve Prosthesis Implantation/*methods/mortality
+MH  - Humans
+MH  - Magnetic Resonance Imaging, Cine/*methods
+MH  - Male
+MH  - Middle Aged
+MH  - Mitral Valve Insufficiency/*diagnostic imaging/mortality/surgery
+MH  - Predictive Value of Tests
+MH  - Prognosis
+MH  - Prospective Studies
+MH  - ROC Curve
+MH  - Risk Assessment
+MH  - Severity of Illness Index
+MH  - Stroke Volume/*physiology
+MH  - Survival Rate
+MH  - Treatment Outcome
+MH  - United Kingdom
+MH  - Ventricular Dysfunction, Left/*diagnostic imaging/physiopathology
+MH  - Ventricular Remodeling/*physiology
+OTO - NOTNLM
+OT  - cardiovascular magnetic resonance imaging
+OT  - mitral valve regurgitation
+EDAT- 2016/01/14 06:00
+MHDA- 2017/11/03 06:00
+CRDT- 2016/01/14 06:00
+PHST- 2015/07/28 00:00 [received]
+PHST- 2015/11/13 00:00 [accepted]
+PHST- 2016/01/14 06:00 [entrez]
+PHST- 2016/01/14 06:00 [pubmed]
+PHST- 2017/11/03 06:00 [medline]
+AID - jev321 [pii]
+AID - 10.1093/ehjci/jev321 [doi]
+PST - ppublish
+SO  - Eur Heart J Cardiovasc Imaging. 2016 Aug;17(8):863-70. doi: 10.1093/ehjci/jev321.
+      Epub 2016 Jan 12.

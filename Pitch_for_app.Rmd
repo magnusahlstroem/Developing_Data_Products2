@@ -6,37 +6,86 @@ output: ioslides_presentation
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = T)
-```
-
-```{r, echo = F}
-source("medline.R")
-library(ggmap)
+knitr::opts_chunk$set(echo = T, message = F, warning = F)
 ```
 
 ****
 
-###The basic idea
-- To use meta data on articles from the medline database to rank universities based on their academic output.
+####The basic idea
+- <font size="4">To use meta data on articles from the medline database to rank universities based on their academic output.</font>
 
-###Data collection
+####Data collection
 
-- Metadata was collected by manually downloading medline files from pubmed and parsing these to R readable lists, read about it [here](https://mlbernauer.wordpress.com/2014/12/15/parsing-medline-files-in-r/).
+- <font size="4">Metadata was collected by manually downloading medline files from pubmed and parsing these to R readable lists, read about it [here](https://mlbernauer.wordpress.com/2014/12/15/parsing-medline-files-in-r/).</font>
 
-- From these lists author affiliations were extracted and mined for information on university.
+- <font size="4">From these lists author affiliations were extracted and mined for information on university.</font>
 
-- I then used the geocode function from [ggmap package](http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf) to find coordinates of the universities to be able to display them on a leaflet map. 
+- <font size="4">I then used the geocode function from [ggmap package](http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf) to find coordinates of the universities to be able to display them on a leaflet map.</font>
 
-- Finally I extracted publication date and pubmed-ids to be able to filter proporly and link to articles.
+- <font size="4">Finally I extracted publication date and pubmed-ids to be able to filter proporly and link to articles.</font>
+    
 
-##Example
+##Simplified code example {.smaller}
 
-```{r, message = F}
-med <- medline("medline_file_PMID28657967.txt")[[1]]
-aff <- strsplit(med$AD, ";")[[1]][1]
-re <- "\\,[[:alpha:][:space:]]*[Uu][Nn][Ii][Vv][[:alpha:][:space:]]*\\,"
-ind <- regexpr(re, aff)
-uni <- sub("^\\,\\ ", "", substr(aff, ind, ind[1] + attributes(ind)[[1]]))
-uni
-geocode(uni, source = "dsk")
+From medline file to university with coordinates
+```{r}
+source("medline.R"); require(ggmap); require(dplyr)
+med <- medline("medline_file_more_IDs.txt")
+out <- lapply(med, function(x) {
+  aff <- strsplit(x$AD, ";")[[1]][1]
+  P <- if(!is.null(x$LR)) x$LR else "NA" 
+  PMID <- x$PMID
+  re <- "\\,[[:alpha:][:space:]]*[Uu][Nn][Ii][Vv][[:alpha:][:space:]]*\\,"
+  ind <- regexpr(re, aff)
+  uni <- sub("^\\,\\ ", "", substr(aff, ind, ind[1] + attributes(ind)[[1]]))
+  uni <- sub(", $", "", uni)
+  list(Uni = uni, Published = P, PMID = PMID)
+})
+outdf <- do.call(rbind.data.frame, c(out, stringsAsFactors = F)) %>%
+  filter(Uni == "University of Copenhagen") %>%
+  mutate(Published = as.Date(Published, format = "%Y%m%d")) %>%
+  arrange(desc(Published))
+uni <- unique(outdf$Uni)
+coords <- data.frame(Uni= uni, geocode(uni, source = "dsk"))
+outdf <- left_join(outdf, coords, by = "Uni")
+head(outdf, 1)
+
 ```
+
+##Continued {.smaller}
+
+Then we do a little more modulation to create the links for the articles
+```{r}
+require(leaflet)
+pubs <- slice(outdf, 1:5) %>% pull(PMID)
+as_a_link <- lapply(pubs, function(t) {
+  paste("<a href='https://www.ncbi.nlm.nih.gov/pubmed/", 
+        t, 
+        "'>", 
+        t, 
+        "</a>", 
+        sep = "")
+  })
+linkdf <- data.frame(Uni = "University of Copenhagen", 
+                     link = do.call(paste, c(as_a_link, sep = " <br> ")))
+outdf <- left_join(outdf, linkdf, by = "Uni") %>%
+  mutate(link = paste0(Uni, 
+                       " <br> ",
+                       "Publications in medline file ", 
+                       nrow(outdf),
+                       " <br> ", link))
+lf <- leaflet(data = outdf) %>% 
+    addTiles() %>%
+    addMarkers(lng = ~lon, 
+               lat = ~lat, 
+               popup = ~link)
+```
+
+
+
+##Leafletify
+Voila !!!
+```{r, echo = F}
+lf
+```
+[To see the final result click here](https://magnusdhk.shinyapps.io/Academic_output/)
