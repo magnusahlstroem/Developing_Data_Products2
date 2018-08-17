@@ -3,13 +3,40 @@ title: "Ramme for patientsikkerhed"
 author: "Introduktionslæge, PHD Magnus Glindvad Ahlström"
 date: "31 jul 2018"
 output:
-  beamer_presentation: default
-  ioslides_presentation: default
+  ioslides_presentation: 
+    logo: C:/Kurser/Developing_Data_Products2/Slides/STPS_SMALL.png
+    css: C:/Kurser/Developing_Data_Products2/Slides/styles.css
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+##Overordnede rammer
+
+- **Vision: <br> <span style="color:red">Et sikkert og lærende sundhedsvæsen</span>**
+- **Mission: <br> <span style="color:red">Vi arbejder for, at det er trygt (sikkert) at være patient</span>**
+
+## Udfordringer?
+
+1. Hvad forstår vi patientsikkerhed?
+2. Hvad forstår vi ved risiko?
+3. Hvordan identificeres temaer og områder?
+4. Hvordan identificeres behandlingssteder?
+5. Hvem skal der gås reaktivt tilsyn på?
+6. Hvilke data skal vi bruge og hvordan?
+
+##Centrale begreber
+
+**Sikkerhed: <br> <span style="color:red">Fraværet af beskadigelse</span>**
+
+**Patientsikkerhed: <br> <span style="color:red">Fraværet af beskadigelse mens du er patient</span>**
+
+##Klassisk epidemilogi
+
+
+
 
 ## Løsning på udfordringer?
 
@@ -30,15 +57,4 @@ Et grundlag for diskussion
 6. Balance mellem kontrol og læring
 Et grundlag for diskussion
 
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
-```
 
