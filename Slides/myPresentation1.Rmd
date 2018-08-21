@@ -1,0 +1,409 @@
+---
+title: "Ramme for patientsikkerhed"
+author: "Introduktionslæge, PHD Magnus Glindvad Ahlström"
+date: "31 jul 2018"
+output:
+  ioslides_presentation: 
+    logo: C:/Kurser/Developing_Data_Products2/Slides/STPS_SMALL.png
+    css: C:/Kurser/Developing_Data_Products2/Slides/styles.css
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = 'center', fig.width = 8, fig.height = 4.5,
+                      message = F, comment=F, warning=F)
+```
+
+##Program
+
+1. Konceptualisering af patientsikkerhed
+2. Anvendelse
+3. Cases
+    - Forslag fra sagkyndig
+    - UTH
+    - Data eksempler
+4. Afrunding
+
+##Overordnede rammer
+
+- **Vision: <br> <span style="color:red">Et sikkert og lærende sundhedsvæsen</span>**
+- **Mission: <br> <span style="color:red">Vi arbejder for, at det er trygt (sikkert) at være patient</span>**
+
+<br>
+<br>
+<br>
+
+- **Opdrag : <br> <span style="color:red">Hvor er risikoen for patientsikkerhed størst</span>**
+
+##Udfordringer? {.smaller}
+
+1. Hvad forstår vi ved patientsikkerhed?
+2. Hvad forstår vi ved risiko?
+3. Hvordan identificeres temaer og områder?
+4. Hvordan identificeres behandlingssteder?
+5. Hvordan sikrer vi os at vores tiltag gavner?
+6. Hvem skal der gås reaktivt tilsyn på?
+7. Hvilke data skal vi bruge og hvordan?
+
+##Centrale begreber
+
+**Sikkerhed: <br> <span style="color:red">Fravær af skade</span>**
+
+**Patientsikkerhed: <br> <span style="color:red">Fraværet af beskadigelse i rollen som patient</span>**
+
+----
+
+####<span style="color:black">Skade er centralt</span>
+
+```{r}
+source("F:/EfUA/MGAH/SPOOP/Functions/patientsikkerhedsfigur3.R")
+source("F:/EfUA/MGAH/SPOOP/Functions/curve_line.R")
+patientsikkerhedsfigur3(components = 2)
+```
+
+----
+
+####<span style="color:black">Risiko er også vigtigt</span>
+
+```{r}
+patientsikkerhedsfigur3(c(2,4))
+```
+
+
+
+----
+
+####<span style="color:black">Forbindelsen mellem risiko og skade</span>
+
+```{r}
+patientsikkerhedsfigur3(c(1:5))
+```
+
+----
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+**En kendt ramme**
+<br>
+- <span style="color:red">Klassisk epidemiologi</span>
+
+----
+
+####<span style="color:black">Klassisk epidemiologi</span> 
+
+```{r}
+patientsikkerhedsfigur3(1:6)
+```
+
+##Hvad er patientsikkerhed?
+
+**<span style="color:red">Definition: <br></span>Patientsikkerhed er læreren om forebyggelige fejl, deres opståen, skadesvirkninger og forebyggelse**
+
+----
+
+<br>
+<br>
+<br>
+<br>
+
+**<span style="color:black">Hvad skal vi måles på?</span>**
+
+----
+
+<br>
+<br>
+<br>
+<br>
+
+**<span style="color:black">Hvad skal vi måles på?</span>**
+
+<br>
+
+<span style="color:red">I hvor høj grad er vi i stand til at undgå at folk kommer til skade i forbindelse med sundhedsfagligt virke</span>
+
+----
+
+<br>
+<br>
+<br>
+<br>
+
+**<span style="color:black">Hvad skal sundhedspersoner måles på?</span>**
+
+----
+
+<br>
+<br>
+<br>
+<br>
+
+**<span style="color:black">Hvad skal sundhedspersoner måles på?</span>**
+
+<br>
+
+<span style="color:red">I hvor høj grad de er i stand til at undgå at at lave forebyggelige fejl</span>
+
+----
+
+<br>
+<br>
+<br>
+<br>
+
+**<span style="color:black">Hvordan skal vi hjælpe sundhedspersoner?</span>**
+
+----
+
+<br>
+<br>
+<br>
+<br>
+
+**<span style="color:black">Hvordan skal vi hjælpe sundhedspersoner?</span>**
+
+<br>
+
+<span style="color:red">Vi skal have kendskab til omstændigheder der hhv. øger og mindsker sandsynligheden for forebyggelige fejl og udbrede og implentere dette kendskab</span>
+
+----
+
+<br>
+<br>
+<br>
+<br>
+
+**<span style="color:black">Hvad er forebyggelige fejl?</span>**
+
+----
+
+<br>
+<br>
+<br>
+<br>
+
+**<span style="color:black">Hvad er forebyggelige fejl?</span>**
+
+- **Epicentret for patientsikkerhed**
+- **Noget som har et vægtigt anker i klinikken**
+- **Noget som vi vurderer**
+
+----
+
+<br>
+<br>
+<br>
+<br>
+
+**<span style="color:black">Hvad er forebyggelige fejl?</span>**
+
+**Dårligt eller uargumenterede afvigelser fra 'standard of practice'**
+
+##Patientsikkerhed?
+
+**<span style="color:red">Definition: <br></span>Patientsikkerhed er læreren om forebyggelige fejl, deres opståen, skadesvirkninger og forebyggelse**
+
+<br>
+
+**<span style="color:red">Forebyggelige fejl: <br> </span>**
+**Dårligt eller uargumenterede afvigelser fra 'standard of practice'**
+
+----
+
+
+
+####<span style="color:black">Risiko for patientsikkerhed?</span> 
+
+```{r}
+patientsikkerhedsfigur3(components = 1:8)
+```
+
+----
+
+####<span style="color:black">Anvendelse</span> 
+
+```{r}
+patientsikkerhedsfigur3()
+```
+
+##Indkomne forslag
+
+```{r}
+require(knitr)
+require(readr)
+kable(read.csv2("C:/Kurser/Developing_Data_Products2/Slides/Forslag_6.csv"))
+```
+
+##UTH'er
+
+I forbindelse med bedøvning af en patient startes en pumpe med smertestillende medicin på en alt for høj hastighed inden patienten har fået lagt en tube i halsen.  Patienten udvikler muskelstivhed udløst af overdosis smertestillende, hvorfor manuel ventilation ikke er muligt. Der konverteres til akut-operationsindledning, dette forløber glat, patienten stabiliseres og resten af operationen forløber planmæssigt.
+
+----
+
+####<span style="color:black">Identifikation af behandlingssteder</span> 
+
+```{r}
+patientsikkerhedsfigur3(components = c(1,4,5,7))
+```
+
+----
+
+####<span style="color:black">Identifikation af behandlingssteder</span> 
+
+<br>
+- Vi anvender egne indsamlede data om forebyggelige fejl fra tilsynsbesøg som outcome
+<br>
+- Vi anvender egne data som er tilgængelige for alle behandlingsteder som co-variater
+<br>
+- Vi udvikler modeller som udpeger steder med større sandsynlighed for at score dårligt
+
+----
+
+####<span style="color:black">Kønsfordeling og tilsyn</span> 
+
+```{r}
+require(dplyr); library(ggplot2)
+final_RBT <- read_csv2("F:/EfUA/MGAH/RBT_tilsynsrapporter/workdata/final_RBT.csv")
+ggplot(data = final_RBT, aes(y = mean_sex, x = factor(outcome))) + geom_boxplot()
+```
+
+----
+
+####<span style="color:black">Aldersfordeling og tilsyn</span> 
+
+```{r}
+ggplot(data = final_RBT, aes(y = mean_age, x = factor(outcome))) + geom_boxplot() + ylim(30,80)
+```
+
+----
+
+####<span style="color:black">Afstand fra universiteter og tilsyn</span> 
+
+```{r}
+ggplot(data = final_RBT, aes(y = dist_uni, x = factor(outcome))) + geom_boxplot()
+```
+
+----
+
+<br>
+
+####<span style="color:black">Planen er at vi skal forsøge at kigge på mange forskellige parametre <br> </span> 
+- Antal pt.
+- Antal og sammenstæning af ansatte
+- Ordinations historik (SPOOP)
+- Klagesager (m/u kritik)
+- Sanktioner
+- Tidligere tilsynsrapporter
+- Resultater fra arbejdstilsyns rapporter
+- Tid fra udd - Speciale
+- Forbrug af kursusdage
+- Økonomi
+- ...
+
+##Resultatet af en forudsigelsesalgoritme
+
+####<span style="color:black">Forudsigelse vs. reelt resultat af tilsyn</span> 
+
+```{r}
+set.seed(1421); require(caret)
+inTrain <- createDataPartition(final_RBT$outcome, p = 0.8, list = F)
+training <- final_RBT[inTrain, ]
+testing <- final_RBT[-inTrain, ]
+
+fit1 <- train(factor(outcome) ~ ., 
+              data = training,
+              method = "rf")
+t <- confusionMatrix(predict(fit1, testing), 
+                factor(testing$outcome, 
+                       levels = c("0","1","2","3")))
+knitr::kable(t$table)
+
+```
+
+<br>
+
+`r paste0("Precision = ", round(t$overall[1], 2)*100, "% ", "(95% CI: ", round(t$overall[3], 2) * 100, " - ", round(t$overall[4], 2) * 100, "%)")` 
+
+<br> Altså lidt <b><u>dårligere</u></b> end at kaste en terning.
+
+----
+
+####<span style="color:black">Identifikation af temaer</span> 
+
+```{r}
+patientsikkerhedsfigur3(components = c(1,2,3,8))
+```
+
+##Kæbenekrose
+
+```{r, fig.height=3, fig.width=4}
+require(jpeg)
+require(grid)
+img <- readJPEG("C:/Kurser/Developing_Data_Products2/Slides/Osteonecrosis_of_jaw.jpg")
+grid.raster(img)
+```
+
+####<span style="color:black">Analyser baseret på LPR, SSIK, og LAR</span> 
+
+----
+
+####<span style="color:black"> Risiko >< fejl >< skade </span> 
+
+```{r}
+patientsikkerhedsfigur3(components = c(1:5))
+```
+
+----
+
+```{r, fig.width = 8, fig.height = 6}
+require(png)
+img <- readPNG("F:/EfUA/MGAH/Projekter_forskermaskine/Kaebenekrose/Ostenecrosis_estimated.png")
+grid.raster(img)
+```
+
+----
+
+####<span style="color:black"> Lægemiddelinteraktioner </span> 
+
+```{r, fig.width = 8, fig.height = 6}
+img <- readPNG("C:/Kurser/Developing_Data_Products2/Slides/Laegemiddelinteraktioner1.png")
+grid.raster(img)
+```
+
+----
+
+####<span style="color:black"> Lægemiddelinteraktioner - fortsat </span> 
+
+```{r, fig.width = 8, fig.height = 6}
+img <- readPNG("C:/Kurser/Developing_Data_Products2/Slides/Laegemiddelinteraktioner2.png")
+grid.raster(img)
+```
+
+##Løsninger? {.smaller}
+
+1. Hvad forstår vi ved patientsikkerhed?
+    - Risiko -> fejl -> skade | risk -> error -> injury
+2. Hvad forstår vi ved risiko?
+    - Risikoen ved en bestemt type forebyggelig fejl kan beskrives og kvantificeres
+    - Antallet af fejl og konsekvenserne på et behandlingssted kan kvantificeres
+3. Hvordan identificeres temaer og områder?
+    - Der hvor sandsynlighed x konsekvens ved forebyggelige fejl er størst
+4. Hvordan identificeres behandlingssteder?
+    - Der hvor sandsynligheden for at der begås forebyggelige fejl er størst
+5. Hvordan sikrer vi os at vores tiltag gavner?
+    - Vi måler på relevante styringsparametre
+6. Hvem skal der gås reaktivt tilsyn på? - ?????
+7. Hvilke data skal vi bruge og hvordan? - ?????
+
+----
+<br>
+<br>
+<br>
+<br>
+<br>
+
+####<span style="color:black"> TAK FOR OPMÆRKSOMHEDEN </span>
+
