@@ -396,7 +396,7 @@ grid.raster(img)
 5. Hvordan sikrer vi os at vores tiltag gavner?
     - Vi måler på relevante styringsparametre
 6. Hvem skal der gås reaktivt tilsyn på? - ?????
-7. Hvilke data skal vi bruge og hvordan? - ?????
+7. Hvilke data skal vi bruge og hvordan?
 
 ----
 <br>
